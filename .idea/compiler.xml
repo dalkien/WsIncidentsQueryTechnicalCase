@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="WsIncidentsQueryTechnicalCase-web" />
+        <module name="WsIncidentsQueryTechnicalCase-ejb" />
+        <module name="WsIncidentsQueryTechnicalCase-ear" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="WsIncidentsQueryTechnicalCase-ejb" options="-endorseddirs C:\Users\madrigalo\Documents\IntellijIdea3\WsIncidentsQueryTechnicalCase\WsIncidentsQueryTechnicalCase-ejb\target/endorsed" />
+      <module name="WsIncidentsQueryTechnicalCase-web" options="-endorseddirs C:\Users\madrigalo\Documents\IntellijIdea3\WsIncidentsQueryTechnicalCase\WsIncidentsQueryTechnicalCase-web\target/endorsed" />
+    </option>
+  </component>
+</project>
