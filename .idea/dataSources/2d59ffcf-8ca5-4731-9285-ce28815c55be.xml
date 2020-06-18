@@ -1,0 +1,3681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="Incidentes y solicitudes">
+  <database-model serializer="dbm" dbms="ORACLE" family-id="ORACLE" format-version="4.15">
+    <root id="1">
+      <ServerVersion>12.2.0.1.0</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="ADMTURNOS">
+      <ObjectId>152</ObjectId>
+    </schema>
+    <schema id="3" parent="1" name="AI_SYS_INSP">
+      <ObjectId>110</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="ANONYMOUS">
+      <ObjectId>63</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="API_APP_INSP">
+      <ObjectId>113</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="API_BRIDGE_INSP">
+      <ObjectId>108</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="API_UTIL_INSP">
+      <ObjectId>107</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="APPQOSSYS">
+      <ObjectId>55</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="AUDSYS">
+      <ObjectId>8</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="BILLING_INSP">
+      <ObjectId>118</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="BRIDGE">
+      <ObjectId>153</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="CTXSYS">
+      <ObjectId>84</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="DATALAKE_DATADOMAIN_INSP">
+      <ObjectId>117</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="DATALAKE_STAGE_INSP">
+      <ObjectId>116</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="DBSFWUSER">
+      <ObjectId>35</ObjectId>
+    </schema>
+    <schema id="16" parent="1" name="DBSNMP">
+      <ObjectId>54</ObjectId>
+    </schema>
+    <schema id="17" parent="1" name="DEV_FAC_CUN_INSP">
+      <ObjectId>112</ObjectId>
+    </schema>
+    <schema id="18" parent="1" name="DEV_FAC_EVER_INSP">
+      <ObjectId>111</ObjectId>
+    </schema>
+    <schema id="19" parent="1" name="DEV_FAC_HITTS_INSP">
+      <ObjectId>114</ObjectId>
+    </schema>
+    <schema id="20" parent="1" name="DIP">
+      <ObjectId>23</ObjectId>
+    </schema>
+    <schema id="21" parent="1" name="DVF">
+      <ObjectId>103</ObjectId>
+    </schema>
+    <schema id="22" parent="1" name="DVSYS">
+      <ObjectId>1279990</ObjectId>
+    </schema>
+    <schema id="23" parent="1" name="DWH_MATRIX_INSP">
+      <ObjectId>119</ObjectId>
+    </schema>
+    <schema id="24" parent="1" name="DWH_MUD_INSP">
+      <ObjectId>135</ObjectId>
+    </schema>
+    <schema id="25" parent="1" name="EUO7522A">
+      <ObjectId>129</ObjectId>
+    </schema>
+    <schema id="26" parent="1" name="GESTIONNEW">
+      <ObjectId>106</ObjectId>
+    </schema>
+    <schema id="27" parent="1" name="GGSYS">
+      <ObjectId>60</ObjectId>
+    </schema>
+    <schema id="28" parent="1" name="GSMADMIN_INTERNAL">
+      <ObjectId>21</ObjectId>
+    </schema>
+    <schema id="29" parent="1" name="GSMCATUSER">
+      <ObjectId>59</ObjectId>
+    </schema>
+    <schema id="30" parent="1" name="GSMUSER">
+      <ObjectId>22</ObjectId>
+    </schema>
+    <schema id="31" parent="1" name="INSPIRABACKUP">
+      <ObjectId>121</ObjectId>
+    </schema>
+    <schema id="32" parent="1" name="INSP_CALLIDUS_DEV">
+      <ObjectId>143</ObjectId>
+    </schema>
+    <schema id="33" parent="1" name="INSP_DEV_AJUSTES">
+      <ObjectId>148</ObjectId>
+    </schema>
+    <schema id="34" parent="1" name="INSP_DEV_CRMSERVICES">
+      <ObjectId>146</ObjectId>
+      <CreatedTimestamp>2020-01-30.10:57:55</CreatedTimestamp>
+      <ModifiedTimestamp>2020-06-12.03:30:30</ModifiedTimestamp>
+      <IntrospectionTimestamp>2020-06-18.05:18:08</IntrospectionTimestamp>
+      <CommentsHash>9300300447705</CommentsHash>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="35" parent="1" name="INSP_DEV_LEGITEL">
+      <ObjectId>155</ObjectId>
+    </schema>
+    <schema id="36" parent="1" name="INSP_DEV_MASIVEFACT">
+      <ObjectId>147</ObjectId>
+    </schema>
+    <schema id="37" parent="1" name="INSP_DEV_PIN">
+      <ObjectId>139</ObjectId>
+    </schema>
+    <schema id="38" parent="1" name="INSP_DEV_POC_TSROS">
+      <ObjectId>151</ObjectId>
+    </schema>
+    <schema id="39" parent="1" name="INSP_DEV_PREBILLING">
+      <ObjectId>137</ObjectId>
+    </schema>
+    <schema id="40" parent="1" name="INSP_DEV_REPLCOMCORP">
+      <ObjectId>150</ObjectId>
+    </schema>
+    <schema id="41" parent="1" name="INSP_DEV_SCC">
+      <ObjectId>122</ObjectId>
+    </schema>
+    <schema id="42" parent="1" name="INSP_DEV_USSD">
+      <ObjectId>124</ObjectId>
+    </schema>
+    <schema id="43" parent="1" name="INSP_DEV_WSOA">
+      <ObjectId>149</ObjectId>
+    </schema>
+    <schema id="44" parent="1" name="INSP_EDI_FS">
+      <ObjectId>141</ObjectId>
+    </schema>
+    <schema id="45" parent="1" name="INSP_LISTAS">
+      <ObjectId>138</ObjectId>
+    </schema>
+    <schema id="46" parent="1" name="INSP_PRUEBAS">
+      <ObjectId>136</ObjectId>
+    </schema>
+    <schema id="47" parent="1" name="INSP_USSD">
+      <ObjectId>144</ObjectId>
+    </schema>
+    <schema id="48" parent="1" name="INSP_USSD_UAT">
+      <ObjectId>156</ObjectId>
+    </schema>
+    <schema id="49" parent="1" name="LBACSYS">
+      <ObjectId>101</ObjectId>
+    </schema>
+    <schema id="50" parent="1" name="MDDATA">
+      <ObjectId>96</ObjectId>
+    </schema>
+    <schema id="51" parent="1" name="MDSYS">
+      <ObjectId>90</ObjectId>
+    </schema>
+    <schema id="52" parent="1" name="MON_LEGACY">
+      <ObjectId>115</ObjectId>
+    </schema>
+    <schema id="53" parent="1" name="OIMSACPROD">
+      <ObjectId>128</ObjectId>
+    </schema>
+    <schema id="54" parent="1" name="OJVMSYS">
+      <ObjectId>81</ObjectId>
+    </schema>
+    <schema id="55" parent="1" name="OLAPSYS">
+      <ObjectId>93</ObjectId>
+    </schema>
+    <schema id="56" parent="1" name="ORACLE_OCM">
+      <ObjectId>39</ObjectId>
+    </schema>
+    <schema id="57" parent="1" name="ORDDATA">
+      <ObjectId>87</ObjectId>
+    </schema>
+    <schema id="58" parent="1" name="ORDPLUGINS">
+      <ObjectId>88</ObjectId>
+    </schema>
+    <schema id="59" parent="1" name="ORDSYS">
+      <ObjectId>86</ObjectId>
+    </schema>
+    <schema id="60" parent="1" name="OUTLN">
+      <ObjectId>13</ObjectId>
+    </schema>
+    <schema id="61" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="62" parent="1" name="PWBI_READ_INSP">
+      <ObjectId>142</ObjectId>
+    </schema>
+    <schema id="63" parent="1" name="RDM_CONSULTA">
+      <ObjectId>133</ObjectId>
+    </schema>
+    <schema id="64" parent="1" name="RDM_MODDATA">
+      <ObjectId>132</ObjectId>
+    </schema>
+    <schema id="65" parent="1" name="REDMAESTRA">
+      <ObjectId>130</ObjectId>
+    </schema>
+    <schema id="66" parent="1" name="REMOTE_SCHEDULER_AGENT">
+      <ObjectId>34</ObjectId>
+    </schema>
+    <schema id="67" parent="1" name="RM_MODDATA">
+      <ObjectId>131</ObjectId>
+    </schema>
+    <schema id="68" parent="1" name="SAC_ADMIN">
+      <ObjectId>127</ObjectId>
+    </schema>
+    <schema id="69" parent="1" name="SAC_ADMIN2">
+      <ObjectId>134</ObjectId>
+    </schema>
+    <schema id="70" parent="1" name="SAC_APP">
+      <ObjectId>125</ObjectId>
+    </schema>
+    <schema id="71" parent="1" name="SAC_CONSULTA">
+      <ObjectId>126</ObjectId>
+    </schema>
+    <schema id="72" parent="1" name="SI_INFORMTN_SCHEMA">
+      <ObjectId>89</ObjectId>
+    </schema>
+    <schema id="73" parent="1" name="SPATIAL_CSW_ADMIN_USR">
+      <ObjectId>98</ObjectId>
+    </schema>
+    <schema id="74" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="75" parent="1" name="SYS$UMF">
+      <ObjectId>46</ObjectId>
+    </schema>
+    <schema id="76" parent="1" name="SYSBACKUP">
+      <ObjectId>2147483617</ObjectId>
+    </schema>
+    <schema id="77" parent="1" name="SYSDG">
+      <ObjectId>2147483618</ObjectId>
+    </schema>
+    <schema id="78" parent="1" name="SYSKM">
+      <ObjectId>2147483619</ObjectId>
+    </schema>
+    <schema id="79" parent="1" name="SYSRAC">
+      <ObjectId>2147483620</ObjectId>
+    </schema>
+    <schema id="80" parent="1" name="SYSTEM">
+      <ObjectId>9</ObjectId>
+    </schema>
+    <schema id="81" parent="1" name="WMSYS">
+      <ObjectId>72</ObjectId>
+    </schema>
+    <schema id="82" parent="1" name="XDB">
+      <ObjectId>62</ObjectId>
+    </schema>
+    <schema id="83" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </schema>
+    <sequence id="84" parent="34" name="ID_ACTIVITY_SQ">
+      <ObjectId>522024</ObjectId>
+      <CreatedTimestamp>2020-05-22.07:43:16</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-22.07:43:16</ModifiedTimestamp>
+      <SequenceIdentity>1..999999999999999</SequenceIdentity>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="85" parent="34" name="ID_ACTIVITY_STATUS_SQ">
+      <ObjectId>522017</ObjectId>
+      <CreatedTimestamp>2020-05-22.07:41:17</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-22.07:41:17</ModifiedTimestamp>
+      <SequenceIdentity>1..999999999999999</SequenceIdentity>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="86" parent="34" name="ID_CUSTOMER_SQ">
+      <ObjectId>463900</ObjectId>
+      <CreatedTimestamp>2020-02-04.11:39:41</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-04.11:39:41</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="87" parent="34" name="ID_DATA_SQ">
+      <ObjectId>463903</ObjectId>
+      <CreatedTimestamp>2020-02-04.11:41:42</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-04.11:41:42</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="88" parent="34" name="ID_DETAIL_CUSTOMER_SQ">
+      <ObjectId>463904</ObjectId>
+      <CreatedTimestamp>2020-02-04.11:41:52</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-04.11:41:52</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="89" parent="34" name="ID_DEVICE_DETAIL_SQ">
+      <ObjectId>522160</ObjectId>
+      <CreatedTimestamp>2020-05-22.10:41:40</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-22.10:41:40</ModifiedTimestamp>
+      <SequenceIdentity>1..999999999999999</SequenceIdentity>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="90" parent="34" name="ID_DEVICE_SQ">
+      <ObjectId>522161</ObjectId>
+      <CreatedTimestamp>2020-05-22.10:41:40</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-22.10:41:40</ModifiedTimestamp>
+      <SequenceIdentity>1..999999999999999</SequenceIdentity>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="91" parent="34" name="ID_DEVICE_STATUS_SQ">
+      <ObjectId>522162</ObjectId>
+      <CreatedTimestamp>2020-05-22.10:41:41</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-22.10:41:41</ModifiedTimestamp>
+      <SequenceIdentity>1..999999999999999</SequenceIdentity>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="92" parent="34" name="ID_DEVICE_TYPE_SQ">
+      <ObjectId>522163</ObjectId>
+      <CreatedTimestamp>2020-05-22.10:41:41</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-22.10:41:41</ModifiedTimestamp>
+      <SequenceIdentity>1..999999999999999</SequenceIdentity>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="93" parent="34" name="ID_FUNCTIONALITY_SQ">
+      <ObjectId>463905</ObjectId>
+      <CreatedTimestamp>2020-02-04.11:42:03</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-15.09:19:44</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="94" parent="34" name="ID_HISTORY_DATA_SQ">
+      <ObjectId>463906</ObjectId>
+      <CreatedTimestamp>2020-02-04.11:42:13</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-04.11:42:13</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="95" parent="34" name="ID_HISTORY_TRANSACTION_SQ">
+      <ObjectId>463907</ObjectId>
+      <CreatedTimestamp>2020-02-04.11:42:23</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-04.11:42:23</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="96" parent="34" name="ID_INSURERS_SQ">
+      <ObjectId>522019</ObjectId>
+      <CreatedTimestamp>2020-05-22.07:41:33</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-22.07:41:33</ModifiedTimestamp>
+      <SequenceIdentity>1..999999999999999</SequenceIdentity>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="97" parent="34" name="ID_KNOWLEDGE_BASE_SQ">
+      <ObjectId>480099</ObjectId>
+      <CreatedTimestamp>2020-03-06.06:32:31</CreatedTimestamp>
+      <ModifiedTimestamp>2020-03-06.06:32:31</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="98" parent="34" name="ID_LOG_ERROR_SQ">
+      <ObjectId>463908</ObjectId>
+      <CreatedTimestamp>2020-02-04.11:42:33</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-04.11:42:33</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="99" parent="34" name="ID_MARK_SQ">
+      <ObjectId>522164</ObjectId>
+      <CreatedTimestamp>2020-05-22.10:41:42</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-22.10:41:42</ModifiedTimestamp>
+      <SequenceIdentity>1..999999999999999</SequenceIdentity>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="100" parent="34" name="ID_PARAMETER_SQ">
+      <ObjectId>463910</ObjectId>
+      <CreatedTimestamp>2020-02-04.11:42:42</CreatedTimestamp>
+      <ModifiedTimestamp>2020-04-14.13:01:48</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="101" parent="34" name="ID_PQR_SQ">
+      <ObjectId>528636</ObjectId>
+      <CreatedTimestamp>2020-06-03.05:47:29</CreatedTimestamp>
+      <ModifiedTimestamp>2020-06-03.05:47:29</ModifiedTimestamp>
+      <SequenceIdentity>1..999999999999999</SequenceIdentity>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="102" parent="34" name="ID_PRIMARY_SQ">
+      <ObjectId>500294</ObjectId>
+      <CreatedTimestamp>2020-04-13.12:41:05</CreatedTimestamp>
+      <ModifiedTimestamp>2020-04-13.12:41:05</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="103" parent="34" name="ID_PROCESS_FUNCTIONALITY_SQ">
+      <ObjectId>463911</ObjectId>
+      <CreatedTimestamp>2020-02-04.11:42:53</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-15.09:36:37</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="104" parent="34" name="ID_PROCESS_SQ">
+      <ObjectId>463912</ObjectId>
+      <CreatedTimestamp>2020-02-04.11:43:03</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-15.09:24:32</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="105" parent="34" name="ID_STATE_SQ">
+      <ObjectId>463913</ObjectId>
+      <CreatedTimestamp>2020-02-04.11:43:12</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-15.09:31:12</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="106" parent="34" name="ID_TRACE_LOG_SQ">
+      <ObjectId>463914</ObjectId>
+      <CreatedTimestamp>2020-02-04.11:43:22</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-04.11:43:22</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="107" parent="34" name="ID_TRANSACTION_CUSTOMER_SQ">
+      <ObjectId>463915</ObjectId>
+      <CreatedTimestamp>2020-02-04.11:43:31</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-04.11:43:31</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="108" parent="34" name="ID_TYPE_ACCOUNT_SQ">
+      <ObjectId>463916</ObjectId>
+      <CreatedTimestamp>2020-02-04.11:43:41</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-04.11:43:41</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="109" parent="34" name="ID_TYPE_DOCUMENT_SQ">
+      <ObjectId>467864</ObjectId>
+      <CreatedTimestamp>2020-02-11.06:29:00</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-11.06:29:00</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="110" parent="34" name="ID_TYPE_PROCESS_SQ">
+      <ObjectId>463917</ObjectId>
+      <CreatedTimestamp>2020-02-04.11:43:50</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-15.09:31:51</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="111" parent="34" name="ISEQ$$_469034">
+      <ObjectId>469040</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-02-13.12:48:32</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-13.12:48:32</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+    </sequence>
+    <sequence id="112" parent="34" name="ISEQ$$_473105">
+      <ObjectId>473106</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-02-21.10:30:54</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-21.10:30:54</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+      <Ordered>1</Ordered>
+    </sequence>
+    <sequence id="113" parent="34" name="ISEQ$$_473108">
+      <ObjectId>473109</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-02-21.10:32:11</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-21.10:32:11</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+      <Ordered>1</Ordered>
+    </sequence>
+    <sequence id="114" parent="34" name="ISEQ$$_474398">
+      <ObjectId>474399</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-02-24.06:27:37</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-24.06:27:37</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+      <Ordered>1</Ordered>
+    </sequence>
+    <sequence id="115" parent="34" name="ISEQ$$_481952">
+      <ObjectId>481953</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-03-10.03:58:50</CreatedTimestamp>
+      <ModifiedTimestamp>2020-03-11.06:22:04</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+      <Ordered>1</Ordered>
+    </sequence>
+    <table id="116" parent="34" name="ACTIVITY">
+      <ObjectId>524424</ObjectId>
+      <Comment>Tabla Actividad</Comment>
+      <CreatedTimestamp>2020-05-26.05:59:41</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-27.02:55:55</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="117" parent="34" name="ACTIVITY_STATUS">
+      <ObjectId>522165</ObjectId>
+      <Comment>Tabla Estado Actividad</Comment>
+      <CreatedTimestamp>2020-05-22.10:44:54</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-22.10:44:54</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="118" parent="34" name="CUSTOMER">
+      <ObjectId>463976</ObjectId>
+      <Comment>Esta tabla contiene los usuarios a quienes se les realiza el proceso.</Comment>
+      <CreatedTimestamp>2020-02-04.12:39:20</CreatedTimestamp>
+      <ModifiedTimestamp>2020-03-03.12:34:23</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="119" parent="34" name="CUSTOMER_DETAIL">
+      <ObjectId>463980</ObjectId>
+      <Comment>Contiene el detalle del cliente</Comment>
+      <CreatedTimestamp>2020-02-04.12:39:45</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-15.09:17:16</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="120" parent="34" name="CUSTOMER_TRANSACTION">
+      <ObjectId>469381</ObjectId>
+      <Comment>En esta tabla podemos ver la relacion de transacciones vs el cliente</Comment>
+      <CreatedTimestamp>2020-02-14.04:49:08</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-14.04:53:22</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="121" parent="34" name="DEVICE">
+      <ObjectId>524420</ObjectId>
+      <Comment>Tabla Equipos</Comment>
+      <CreatedTimestamp>2020-05-26.05:57:27</CreatedTimestamp>
+      <ModifiedTimestamp>2020-06-01.03:10:45</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="122" parent="34" name="DEVICE_DETAIL">
+      <ObjectId>522169</ObjectId>
+      <Comment>Tabla detalle de equipo</Comment>
+      <CreatedTimestamp>2020-05-22.10:44:57</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-27.02:58:51</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="123" parent="34" name="DEVICE_STATUS">
+      <ObjectId>522175</ObjectId>
+      <Comment>Tabla Estado de equipo</Comment>
+      <CreatedTimestamp>2020-05-22.10:45:00</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-22.10:45:00</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="124" parent="34" name="DEVICE_TYPE">
+      <ObjectId>522171</ObjectId>
+      <Comment>Tabla Tipo de equipo</Comment>
+      <CreatedTimestamp>2020-05-22.10:44:58</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-22.10:44:58</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="125" parent="34" name="DOCUMENT_TEMPLATE">
+      <ObjectId>481952</ObjectId>
+      <CreatedTimestamp>2020-03-10.03:58:50</CreatedTimestamp>
+      <ModifiedTimestamp>2020-03-11.06:22:04</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="126" parent="34" name="ERROR_LOG">
+      <ObjectId>463983</ObjectId>
+      <Comment>Esta tabla contiene el log correspondiente a los errores que se presenten.</Comment>
+      <CreatedTimestamp>2020-02-04.12:39:57</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-15.09:14:38</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="127" parent="34" name="FUNCTIONALITY">
+      <ObjectId>463991</ObjectId>
+      <Comment>Esta tabla contiene las funcionalidades existentes</Comment>
+      <CreatedTimestamp>2020-02-04.12:40:16</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-15.09:19:21</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="128" parent="34" name="HISTORY_DATA">
+      <ObjectId>498917</ObjectId>
+      <Comment>Tabla que contien el historia de la data</Comment>
+      <CreatedTimestamp>2020-04-10.06:29:54</CreatedTimestamp>
+      <ModifiedTimestamp>2020-04-10.06:29:56</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="129" parent="34" name="HISTORY_TRANSACTION">
+      <ObjectId>464000</ObjectId>
+      <Comment>Esta tabla contiene el historial de las transacciones</Comment>
+      <CreatedTimestamp>2020-02-04.12:40:48</CreatedTimestamp>
+      <ModifiedTimestamp>2020-03-03.11:19:26</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="130" parent="34" name="INSURERS">
+      <ObjectId>522167</ObjectId>
+      <Comment>Tabla Aseguradora</Comment>
+      <CreatedTimestamp>2020-05-22.10:44:55</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-22.10:44:55</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="131" parent="34" name="KNOWLEDGE_BASE">
+      <ObjectId>500253</ObjectId>
+      <Comment>Almacena las politicas y condiciones de los procesos de atender solicitudes medio presencial y telefonico</Comment>
+      <CreatedTimestamp>2020-04-13.10:09:05</CreatedTimestamp>
+      <ModifiedTimestamp>2020-04-13.10:09:05</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="132" parent="34" name="KNOWLEDGE_BASE_FAQ">
+      <ObjectId>500286</ObjectId>
+      <Comment>Esta tabla almacena las preguntas frecuentes del los procesos de Claro</Comment>
+      <CreatedTimestamp>2020-04-13.12:30:58</CreatedTimestamp>
+      <ModifiedTimestamp>2020-04-15.10:02:47</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="133" parent="34" name="MARK">
+      <ObjectId>522173</ObjectId>
+      <Comment>Tabla Marca de equipo</Comment>
+      <CreatedTimestamp>2020-05-22.10:44:59</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-22.10:44:59</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="134" parent="34" name="PARAMETER">
+      <ObjectId>500774</ObjectId>
+      <Comment>En esta tabla se almacenara los parámetros que utilizara la aplicación.</Comment>
+      <CreatedTimestamp>2020-04-14.12:51:04</CreatedTimestamp>
+      <ModifiedTimestamp>2020-04-14.12:57:08</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="135" parent="34" name="PQR_CASE">
+      <ObjectId>528632</ObjectId>
+      <Comment>Tabla Casos PQR</Comment>
+      <CreatedTimestamp>2020-06-03.05:45:26</CreatedTimestamp>
+      <ModifiedTimestamp>2020-06-03.09:40:24</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="136" parent="34" name="PQR_CASE_CV">
+      <ObjectId>534341</ObjectId>
+      <CreatedTimestamp>2020-06-12.02:25:17</CreatedTimestamp>
+      <ModifiedTimestamp>2020-06-12.03:30:30</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="137" parent="34" name="PROCESS">
+      <ObjectId>464011</ObjectId>
+      <Comment>Esta tabla contiene los procesos a nivel de funcionalidad.</Comment>
+      <CreatedTimestamp>2020-02-04.12:41:20</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-15.09:24:26</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="138" parent="34" name="PROCESS_BY_FUNCTIONALITY">
+      <ObjectId>464014</ObjectId>
+      <Comment>Tabla que contiene el proceso por funcionalidad</Comment>
+      <CreatedTimestamp>2020-02-04.12:41:40</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-15.09:35:08</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="139" parent="34" name="STATE">
+      <ObjectId>464020</ObjectId>
+      <Comment>Tabla que contiene todos los posibles estados que se requieren usar en el sistema</Comment>
+      <CreatedTimestamp>2020-02-04.12:41:54</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-15.09:15:18</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="140" parent="34" name="SYSTEM_DATA">
+      <ObjectId>498896</ObjectId>
+      <Comment>Esta tabla contiene toda la informacion correspondiente al recovery</Comment>
+      <CreatedTimestamp>2020-04-10.06:27:39</CreatedTimestamp>
+      <ModifiedTimestamp>2020-04-10.06:27:42</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="141" parent="34" name="TABLE1">
+      <ObjectId>461342</ObjectId>
+      <CreatedTimestamp>2020-01-30.10:57:55</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-30.10:57:55</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="142" parent="34" name="TRACEABILITY_LOG">
+      <ObjectId>469398</ObjectId>
+      <Comment>En esta tabla se  almacena toda la trazabilidad que lleva el servicio a ejecutar .</Comment>
+      <CreatedTimestamp>2020-02-14.05:23:02</CreatedTimestamp>
+      <ModifiedTimestamp>2020-04-07.06:33:06</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="143" parent="34" name="TYPEDOCUMENTGCONTPROF">
+      <ObjectId>474398</ObjectId>
+      <CreatedTimestamp>2020-02-24.06:27:37</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-24.06:27:37</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="144" parent="34" name="TYPEDOCUMENTSBUREAU">
+      <ObjectId>473108</ObjectId>
+      <CreatedTimestamp>2020-02-21.10:32:11</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-21.10:32:11</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="145" parent="34" name="TYPEDOCUMENTSIMEI">
+      <ObjectId>473105</ObjectId>
+      <CreatedTimestamp>2020-02-21.10:30:54</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-21.10:30:54</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="146" parent="34" name="TYPE_ACCOUNT">
+      <ObjectId>464040</ObjectId>
+      <Comment>Esta tabla contiene los tipos de cuenta que hay .</Comment>
+      <CreatedTimestamp>2020-02-04.12:42:57</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-15.09:15:51</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="147" parent="34" name="TYPE_DOCUMENT">
+      <ObjectId>467865</ObjectId>
+      <Comment>Esta tabla almacena los tipos de documento</Comment>
+      <CreatedTimestamp>2020-02-11.06:29:21</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-15.09:16:12</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="148" parent="34" name="TYPE_PROCESS">
+      <ObjectId>464042</ObjectId>
+      <Comment>Esta tabla contiene los tipos de procesos (Consulta , actualización , eliminación ,Creación, validación x , validación y , etc ).</Comment>
+      <CreatedTimestamp>2020-02-04.12:43:11</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-15.09:26:37</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <package id="149" parent="34" name="ACTIVITY_DEVICE_PKG">
+      <ObjectId>524469</ObjectId>
+      <SourceTextLength>5481</SourceTextLength>
+      <DependsOnIds>463976,467865,522165,522167,522169,522171,522173,522175,524420,524424</DependsOnIds>
+      <CreatedTimestamp>2020-05-26.06:31:52</CreatedTimestamp>
+      <ModifiedTimestamp>2020-06-01.04:59:21</ModifiedTimestamp>
+    </package>
+    <package id="150" parent="34" name="PACKAGE1">
+      <ObjectId>461343</ObjectId>
+      <SourceTextLength>122</SourceTextLength>
+      <CreatedTimestamp>2020-01-30.10:58:38</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-30.10:58:38</ModifiedTimestamp>
+    </package>
+    <package id="151" parent="34" name="PKG_DOCUMENT_TEMPLATE">
+      <ObjectId>482433</ObjectId>
+      <SourceTextLength>1540</SourceTextLength>
+      <CreatedTimestamp>2020-03-11.02:48:06</CreatedTimestamp>
+      <ModifiedTimestamp>2020-03-11.04:31:19</ModifiedTimestamp>
+    </package>
+    <package id="152" parent="34" name="TYPES_PKG">
+      <ObjectId>465784</ObjectId>
+      <SourceTextLength>1365</SourceTextLength>
+      <CreatedTimestamp>2020-02-07.10:12:16</CreatedTimestamp>
+      <ModifiedTimestamp>2020-04-13.12:34:34</ModifiedTimestamp>
+    </package>
+    <package id="153" parent="34" name="UTILITARIAN_PKG">
+      <ObjectId>465652</ObjectId>
+      <SourceTextLength>4211</SourceTextLength>
+      <DependsOnIds>463976,463980,463983,463991,464011,464020,464040,467865,469381,469398,498896,500253,528632</DependsOnIds>
+      <CreatedTimestamp>2020-02-11.10:34:55</CreatedTimestamp>
+      <ModifiedTimestamp>2020-06-03.09:42:19</ModifiedTimestamp>
+    </package>
+    <column id="154" parent="116" name="ID">
+      <Position>1</Position>
+      <Comment>Codigo Actividad</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>INSP_DEV_CRMSERVICES.ID_ACTIVITY_SQ.NEXTVAL</DefaultExpression>
+    </column>
+    <column id="155" parent="116" name="NAME">
+      <Position>2</Position>
+      <Comment>Nombre Actividad</Comment>
+      <DataType>VARCHAR2(300 byte)|0s</DataType>
+    </column>
+    <column id="156" parent="116" name="DESCRIPTION">
+      <Position>3</Position>
+      <Comment>Descripcion</Comment>
+      <DataType>VARCHAR2(300 byte)|0s</DataType>
+    </column>
+    <column id="157" parent="116" name="ID_DEVICESOLD">
+      <Position>4</Position>
+      <Comment>Id equipo viejo</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+    </column>
+    <column id="158" parent="116" name="ID_DEVICENEW">
+      <Position>5</Position>
+      <Comment>Id equipo nuevo</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+    </column>
+    <column id="159" parent="116" name="ID_ACTIVITY_STATUS">
+      <Position>6</Position>
+      <Comment>Id estado de la actividad</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+    </column>
+    <column id="160" parent="116" name="ID_INSURERS">
+      <Position>7</Position>
+      <Comment>Id aseguradora</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+    </column>
+    <column id="161" parent="116" name="IMEI_OLD">
+      <Position>8</Position>
+      <Comment>Imei viejo</Comment>
+      <DataType>NUMBER(15 digit)|0s</DataType>
+    </column>
+    <column id="162" parent="116" name="IMEI_NEW">
+      <Position>9</Position>
+      <Comment>Imei nuevo</Comment>
+      <DataType>NUMBER(15 digit)|0s</DataType>
+    </column>
+    <column id="163" parent="116" name="ID_CUSTOMER">
+      <Position>10</Position>
+      <Comment>Id cliente</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="164" parent="116" name="DATE_BILL">
+      <Position>11</Position>
+      <Comment>Fecha factura</Comment>
+      <DataType>DATE|0s</DataType>
+    </column>
+    <column id="165" parent="116" name="DATE_DEVICE">
+      <Position>12</Position>
+      <Comment>Fecha equipo</Comment>
+      <DataType>DATE|0s</DataType>
+    </column>
+    <column id="166" parent="116" name="ID_STATE">
+      <Position>13</Position>
+      <Comment>Estado Registro 1 activo 0 inactivo</Comment>
+      <DataType>NUMBER(1 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="167" parent="116" name="ACTIVITY_PK">
+      <ObjectId>524425</ObjectId>
+      <CreatedTimestamp>2020-05-26.05:59:42</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-26.05:59:42</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="168" parent="116" name="ACTIVITY_PK">
+      <ModifiedTimestamp>2020-05-26.05:59:42</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>ACTIVITY_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="169" parent="116" name="ACTIVITY_TEAMS1_FK">
+      <ModifiedTimestamp>2020-05-26.05:59:42</ModifiedTimestamp>
+      <ColNames>ID_DEVICESOLD</ColNames>
+      <RefSchemaName>INSP_DEV_CRMSERVICES</RefSchemaName>
+      <RefTableName>DEVICE</RefTableName>
+      <RefKeyName>DEVICE_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="170" parent="116" name="ACTIVITY_TEAMS2_FK">
+      <ModifiedTimestamp>2020-05-26.05:59:42</ModifiedTimestamp>
+      <ColNames>ID_DEVICENEW</ColNames>
+      <RefSchemaName>INSP_DEV_CRMSERVICES</RefSchemaName>
+      <RefTableName>DEVICE</RefTableName>
+      <RefKeyName>DEVICE_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="171" parent="116" name="ACTIVITY_STATUS_FK">
+      <ModifiedTimestamp>2020-05-26.05:59:43</ModifiedTimestamp>
+      <ColNames>ID_ACTIVITY_STATUS</ColNames>
+      <RefSchemaName>INSP_DEV_CRMSERVICES</RefSchemaName>
+      <RefTableName>ACTIVITY_STATUS</RefTableName>
+      <RefKeyName>ACTIVITY_STATUS_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="172" parent="116" name="ACTIVITY_INSURERS_FK">
+      <ModifiedTimestamp>2020-05-26.05:59:43</ModifiedTimestamp>
+      <ColNames>ID_INSURERS</ColNames>
+      <RefSchemaName>INSP_DEV_CRMSERVICES</RefSchemaName>
+      <RefTableName>INSURERS</RefTableName>
+      <RefKeyName>INSURERS_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="173" parent="116" name="ACTIVITY_CUSTOMER_FK">
+      <ModifiedTimestamp>2020-05-26.05:59:44</ModifiedTimestamp>
+      <ColNames>ID_CUSTOMER</ColNames>
+      <RefSchemaName>INSP_DEV_CRMSERVICES</RefSchemaName>
+      <RefTableName>CUSTOMER</RefTableName>
+      <RefKeyName>ID_CUSTOMER_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <check id="174" parent="116" name="ACTIVITY_STATE">
+      <ModifiedTimestamp>2020-05-26.05:59:44</ModifiedTimestamp>
+      <ColNames>ID_STATE</ColNames>
+      <Predicate>ID_STATE = 1 or ID_STATE = 0</Predicate>
+    </check>
+    <column id="175" parent="117" name="ID">
+      <Position>1</Position>
+      <Comment>Codigo estado actividad</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>INSP_DEV_CRMSERVICES.ID_ACTIVITY_STATUS_SQ.NEXTVAL</DefaultExpression>
+    </column>
+    <column id="176" parent="117" name="NAME">
+      <Position>2</Position>
+      <Comment>Nombre del estado</Comment>
+      <DataType>VARCHAR2(300 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="177" parent="117" name="HIERARCHY">
+      <Position>3</Position>
+      <Comment>Jerarquia de la Actividad</Comment>
+      <DataType>NUMBER(5 digit)|0s</DataType>
+    </column>
+    <column id="178" parent="117" name="ID_STATE">
+      <Position>4</Position>
+      <Comment>Estado Registro 1 activo 0 inactivo</Comment>
+      <DataType>NUMBER(1 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="179" parent="117" name="ACTIVITY_STATUS_PK">
+      <ObjectId>522166</ObjectId>
+      <CreatedTimestamp>2020-05-22.10:44:54</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-22.10:44:54</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="180" parent="117" name="ACTIVITY_STATUS_PK">
+      <ModifiedTimestamp>2020-05-22.10:44:54</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>ACTIVITY_STATUS_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <check id="181" parent="117" name="ACTIVITY_STATUS_STATE">
+      <ModifiedTimestamp>2020-05-22.10:44:54</ModifiedTimestamp>
+      <ColNames>ID_STATE</ColNames>
+      <Predicate>ID_STATE = 1 or ID_STATE = 0</Predicate>
+    </check>
+    <column id="182" parent="118" name="ID_CUSTOMER">
+      <Position>1</Position>
+      <Comment>Columna correspondiente a la primary key</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="183" parent="118" name="ID_CUSTOMER_NUMBER">
+      <Position>2</Position>
+      <Comment>Número correspondiente al cliente</Comment>
+      <DataType>VARCHAR2(30 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="184" parent="118" name="TYPE_DOCUMENT_ID">
+      <Position>3</Position>
+      <Comment>Corresponde al tipo de documento del cliente</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="185" parent="118" name="ID_CUSTOMER_PK">
+      <ObjectId>463978</ObjectId>
+      <CreatedTimestamp>2020-02-04.12:39:20</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-15.09:14:24</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID_CUSTOMER</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="186" parent="118" name="ID_CUSTOMER_PK">
+      <ModifiedTimestamp>2020-02-04.12:39:20</ModifiedTimestamp>
+      <ColNames>ID_CUSTOMER</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>ID_CUSTOMER_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="187" parent="118" name="CUSTOMER_TYPE_DOCUMENT_FK">
+      <ModifiedTimestamp>2020-02-15.09:16:59</ModifiedTimestamp>
+      <ColNames>TYPE_DOCUMENT_ID</ColNames>
+      <RefSchemaName>INSP_DEV_CRMSERVICES</RefSchemaName>
+      <RefTableName>TYPE_DOCUMENT</RefTableName>
+      <RefKeyName>TYPE_DOCUMENT_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="188" parent="119" name="ID_DETAIL_CUSTOMER">
+      <Position>1</Position>
+      <Comment>Llave primaria de la tabla</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="189" parent="119" name="ACCOUNT_NUMBER">
+      <Position>2</Position>
+      <Comment>Numero de cuenta </Comment>
+      <DataType>VARCHAR2(200 byte)|0s</DataType>
+    </column>
+    <column id="190" parent="119" name="TYPE_ACCOUNT_ID">
+      <Position>3</Position>
+      <Comment>Foranea con la tabla TYPE_ACCOUNT</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+    </column>
+    <column id="191" parent="119" name="CUSTOMER_ID">
+      <Position>4</Position>
+      <Comment>Foranea con la tabla CUSTOMER</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+    </column>
+    <index id="192" parent="119" name="ID_DETAIL_CUSTOMER_PK">
+      <ObjectId>463982</ObjectId>
+      <CreatedTimestamp>2020-02-04.12:39:45</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-15.09:14:32</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID_DETAIL_CUSTOMER</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="193" parent="119" name="CUSTOMER_DETAIL_TYPE_ACCOUNT_ID_IX">
+      <ObjectId>465176</ObjectId>
+      <CreatedTimestamp>2020-02-06.09:53:54</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-15.09:14:31</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>TYPE_ACCOUNT_ID</ColNames>
+    </index>
+    <index id="194" parent="119" name="CUSTOMER_DETAIL_CUSTOMER_ID_IX">
+      <ObjectId>465175</ObjectId>
+      <CreatedTimestamp>2020-02-06.09:53:41</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-15.09:14:31</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>CUSTOMER_ID</ColNames>
+    </index>
+    <key id="195" parent="119" name="ID_DETAIL_CUSTOMER_PK">
+      <ModifiedTimestamp>2020-02-04.12:39:45</ModifiedTimestamp>
+      <ColNames>ID_DETAIL_CUSTOMER</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>ID_DETAIL_CUSTOMER_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="196" parent="119" name="CUSTOMER_DETAIL_TYPE_ACCOUNT_FK">
+      <ModifiedTimestamp>2020-02-15.09:17:16</ModifiedTimestamp>
+      <ColNames>TYPE_ACCOUNT_ID</ColNames>
+      <RefSchemaName>INSP_DEV_CRMSERVICES</RefSchemaName>
+      <RefTableName>TYPE_ACCOUNT</RefTableName>
+      <RefKeyName>ID_TYPE_ACCOUNT_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="197" parent="119" name="CUSTOMER_DETAIL_CUSTOMER_FK">
+      <ModifiedTimestamp>2020-02-15.09:17:16</ModifiedTimestamp>
+      <ColNames>CUSTOMER_ID</ColNames>
+      <RefSchemaName>INSP_DEV_CRMSERVICES</RefSchemaName>
+      <RefTableName>CUSTOMER</RefTableName>
+      <RefKeyName>ID_CUSTOMER_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="198" parent="120" name="ID_CUSTOMER_TRANSACTION">
+      <Position>1</Position>
+      <Comment>LLave primaria de la tabla</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="199" parent="120" name="ID_TRANSACTION">
+      <Position>2</Position>
+      <Comment>Guid</Comment>
+      <DataType>NVARCHAR2(500 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="200" parent="120" name="CUSTOMER_ID">
+      <Position>3</Position>
+      <Comment>Foranea de la tabla CUSTOMER Logica</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="201" parent="120" name="SYSTEM_DATE">
+      <Position>4</Position>
+      <Comment>Fecha de la transaccion</Comment>
+      <DataType>DATE|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="202" parent="120" name="CUSTOMER_TRANSACTION_PK">
+      <ObjectId>469383</ObjectId>
+      <CreatedTimestamp>2020-02-14.04:53:22</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-14.04:53:22</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID_CUSTOMER_TRANSACTION</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="203" parent="120" name="CUSTOMER_TRANSACTION_ID_TRANSACTION_IX">
+      <ObjectId>469384</ObjectId>
+      <CreatedTimestamp>2020-02-14.04:54:05</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-14.04:54:05</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID_TRANSACTION</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="204" parent="120" name="CUSTOMER_TRANSACTION_PK">
+      <ModifiedTimestamp>2020-02-14.04:53:22</ModifiedTimestamp>
+      <ColNames>ID_CUSTOMER_TRANSACTION</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>CUSTOMER_TRANSACTION_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="205" parent="121" name="ID">
+      <Position>1</Position>
+      <Comment>Codigo equipo</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>INSP_DEV_CRMSERVICES.ID_DEVICE_SQ.NEXTVAL</DefaultExpression>
+    </column>
+    <column id="206" parent="121" name="NAME">
+      <Position>2</Position>
+      <Comment>Nombre equipo</Comment>
+      <DataType>VARCHAR2(300 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="207" parent="121" name="ID_DEVICE_TYPE">
+      <Position>3</Position>
+      <Comment>tipo de equipo</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+    </column>
+    <column id="208" parent="121" name="ID_MARK">
+      <Position>4</Position>
+      <Comment>tipo de marca</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+    </column>
+    <column id="209" parent="121" name="ID_DEVICE_STATUS">
+      <Position>5</Position>
+      <Comment>Estado de equipo</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+    </column>
+    <column id="210" parent="121" name="OBSERVATIONS">
+      <Position>6</Position>
+      <Comment>Observaciones</Comment>
+      <DataType>VARCHAR2(300 byte)|0s</DataType>
+    </column>
+    <column id="211" parent="121" name="ID_STATE">
+      <Position>7</Position>
+      <Comment>Estado Registro 1 activo 0 inactivo</Comment>
+      <DataType>NUMBER(1 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="212" parent="121" name="DEVICE_PK">
+      <ObjectId>524421</ObjectId>
+      <CreatedTimestamp>2020-05-26.05:57:27</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-26.05:57:27</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="213" parent="121" name="DEVICE_PK">
+      <ModifiedTimestamp>2020-05-26.05:57:27</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>DEVICE_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="214" parent="121" name="DEVICE_TYPE_FK">
+      <ModifiedTimestamp>2020-05-26.05:57:28</ModifiedTimestamp>
+      <ColNames>ID_DEVICE_TYPE</ColNames>
+      <RefSchemaName>INSP_DEV_CRMSERVICES</RefSchemaName>
+      <RefTableName>DEVICE_TYPE</RefTableName>
+      <RefKeyName>DEVICE_TYPE_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="215" parent="121" name="DEVICE_BRAND_FK">
+      <ModifiedTimestamp>2020-05-26.05:57:29</ModifiedTimestamp>
+      <ColNames>ID_MARK</ColNames>
+      <RefSchemaName>INSP_DEV_CRMSERVICES</RefSchemaName>
+      <RefTableName>MARK</RefTableName>
+      <RefKeyName>MARK_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="216" parent="121" name="DEVICE_STATUS_FK">
+      <ModifiedTimestamp>2020-05-26.05:57:29</ModifiedTimestamp>
+      <ColNames>ID_DEVICE_STATUS</ColNames>
+      <RefSchemaName>INSP_DEV_CRMSERVICES</RefSchemaName>
+      <RefTableName>DEVICE_STATUS</RefTableName>
+      <RefKeyName>DEVICE_STATUS_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <check id="217" parent="121" name="DEVICE_STATE">
+      <ModifiedTimestamp>2020-05-26.05:57:30</ModifiedTimestamp>
+      <ColNames>ID_STATE</ColNames>
+      <Predicate>ID_STATE = 1 or ID_STATE = 0</Predicate>
+    </check>
+    <column id="218" parent="122" name="ID">
+      <Position>1</Position>
+      <Comment>Codigo detalle</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>INSP_DEV_CRMSERVICES.ID_DEVICE_DETAIL_SQ.NEXTVAL</DefaultExpression>
+    </column>
+    <column id="219" parent="122" name="ID_DEVICE">
+      <Position>2</Position>
+      <Comment>Codigo de equipo</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="220" parent="122" name="CHARACTERISTIC">
+      <Position>3</Position>
+      <Comment>Caracteristica</Comment>
+      <DataType>VARCHAR2(300 byte)|0s</DataType>
+    </column>
+    <column id="221" parent="122" name="VALUE">
+      <Position>4</Position>
+      <Comment>Valor</Comment>
+      <DataType>VARCHAR2(300 byte)|0s</DataType>
+    </column>
+    <column id="222" parent="122" name="ID_STATE">
+      <Position>5</Position>
+      <Comment>Estado Registro 1 activo 0 inactivo</Comment>
+      <DataType>NUMBER(1 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="223" parent="122" name="DEVICE_DETAIL_PK">
+      <ObjectId>522170</ObjectId>
+      <CreatedTimestamp>2020-05-22.10:44:57</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-22.10:44:57</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="224" parent="122" name="DEVICE_DETAIL_PK">
+      <ModifiedTimestamp>2020-05-22.10:44:57</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>DEVICE_DETAIL_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="225" parent="122" name="DETAIL_DEVICE_FK">
+      <ModifiedTimestamp>2020-05-27.02:58:51</ModifiedTimestamp>
+      <ColNames>ID_DEVICE</ColNames>
+      <RefSchemaName>INSP_DEV_CRMSERVICES</RefSchemaName>
+      <RefTableName>DEVICE</RefTableName>
+      <RefKeyName>DEVICE_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <check id="226" parent="122" name="DEVICE_DETAIL_STATE">
+      <ModifiedTimestamp>2020-05-22.10:44:57</ModifiedTimestamp>
+      <ColNames>ID_STATE</ColNames>
+      <Predicate>ID_STATE = 1 or ID_STATE = 0</Predicate>
+    </check>
+    <column id="227" parent="123" name="ID">
+      <Position>1</Position>
+      <Comment>Id estado</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>INSP_DEV_CRMSERVICES.ID_DEVICE_STATUS_SQ.NEXTVAL</DefaultExpression>
+    </column>
+    <column id="228" parent="123" name="NAME">
+      <Position>2</Position>
+      <Comment>Nombre</Comment>
+      <DataType>VARCHAR2(300 byte)|0s</DataType>
+    </column>
+    <column id="229" parent="123" name="ID_STATE">
+      <Position>3</Position>
+      <Comment>Estado Registro 1 activo 0 inactivo</Comment>
+      <DataType>NUMBER(1 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="230" parent="123" name="DEVICE_STATUS_PK">
+      <ObjectId>522176</ObjectId>
+      <CreatedTimestamp>2020-05-22.10:45:00</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-22.10:45:00</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="231" parent="123" name="DEVICE_STATUS_PK">
+      <ModifiedTimestamp>2020-05-22.10:45:00</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>DEVICE_STATUS_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <check id="232" parent="123" name="DEVICE_STATUS_STATE">
+      <ModifiedTimestamp>2020-05-22.10:45:00</ModifiedTimestamp>
+      <ColNames>ID_STATE</ColNames>
+      <Predicate>ID_STATE = 1 or ID_STATE = 0</Predicate>
+    </check>
+    <column id="233" parent="124" name="ID">
+      <Position>1</Position>
+      <Comment>Id tipo de equipo</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>INSP_DEV_CRMSERVICES.ID_DEVICE_TYPE_SQ.NEXTVAL</DefaultExpression>
+    </column>
+    <column id="234" parent="124" name="NAME">
+      <Position>2</Position>
+      <Comment>nombre</Comment>
+      <DataType>VARCHAR2(300 byte)|0s</DataType>
+    </column>
+    <column id="235" parent="124" name="ID_STATE">
+      <Position>3</Position>
+      <Comment>Estado Registro 1 activo 0 inactivo</Comment>
+      <DataType>NUMBER(1 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="236" parent="124" name="DEVICE_TYPE_PK">
+      <ObjectId>522172</ObjectId>
+      <CreatedTimestamp>2020-05-22.10:44:58</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-22.10:44:58</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="237" parent="124" name="DEVICE_TYPE_PK">
+      <ModifiedTimestamp>2020-05-22.10:44:58</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>DEVICE_TYPE_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <check id="238" parent="124" name="DEVICE_TYPE_STATE">
+      <ModifiedTimestamp>2020-05-22.10:44:58</ModifiedTimestamp>
+      <ColNames>ID_STATE</ColNames>
+      <Predicate>ID_STATE = 1 or ID_STATE = 0</Predicate>
+    </check>
+    <column id="239" parent="125" name="ID_DOCUMENT_TEMPLATE">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+      <AutoInc>1</AutoInc>
+      <DefaultOnNull>1</DefaultOnNull>
+    </column>
+    <column id="240" parent="125" name="NAME_DOCUMENT_TEMPLATE">
+      <Position>2</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="241" parent="125" name="BODY_DOCUMENT_TEMPLATE">
+      <Position>3</Position>
+      <DataType>CLOB|0s</DataType>
+    </column>
+    <column id="242" parent="125" name="IACTIVE">
+      <Position>4</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <DefaultExpression>1</DefaultExpression>
+    </column>
+    <column id="243" parent="126" name="ID_LOG_ERROR">
+      <Position>1</Position>
+      <Comment>Llave primaria de la tabla</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="244" parent="126" name="SERVICE">
+      <Position>2</Position>
+      <Comment>Servicio por el cual se está presentando el error.</Comment>
+      <DataType>VARCHAR2(400 byte)|0s</DataType>
+    </column>
+    <column id="245" parent="126" name="METHOD">
+      <Position>3</Position>
+      <Comment>Método por el cual se presenta el error.</Comment>
+      <DataType>VARCHAR2(400 byte)|0s</DataType>
+    </column>
+    <column id="246" parent="126" name="DESCRIPTION_ERROR">
+      <Position>4</Position>
+      <Comment>Descripción del ERROR.</Comment>
+      <DataType>VARCHAR2(500 byte)|0s</DataType>
+    </column>
+    <column id="247" parent="126" name="ERROR_DATE">
+      <Position>5</Position>
+      <Comment>Fecha en que sucedio el ERROR.</Comment>
+      <DataType>DATE|0s</DataType>
+    </column>
+    <column id="248" parent="126" name="SERIALIZED_ERROR">
+      <Position>6</Position>
+      <Comment>Error serializado.</Comment>
+      <DataType>VARCHAR2(400 byte)|0s</DataType>
+    </column>
+    <index id="249" parent="126" name="ERROR_LOG_PK">
+      <ObjectId>463989</ObjectId>
+      <CreatedTimestamp>2020-02-04.12:39:57</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-15.09:14:38</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID_LOG_ERROR</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="250" parent="126" name="ERROR_LOG_PK">
+      <ModifiedTimestamp>2020-02-04.12:39:57</ModifiedTimestamp>
+      <ColNames>ID_LOG_ERROR</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>ERROR_LOG_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="251" parent="127" name="ID_FUNCTIONALITY">
+      <Position>1</Position>
+      <Comment>Primary key</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>INSP_DEV_CRMSERVICES.ID_FUNCTIONALITY_SQ.NEXTVAL</DefaultExpression>
+    </column>
+    <column id="252" parent="127" name="NAME_FUNCTIONALITY">
+      <Position>2</Position>
+      <Comment>Nombre de la funcionalidad</Comment>
+      <DataType>VARCHAR2(40 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="253" parent="127" name="DESCRIPTION_FUNCTIONALITY">
+      <Position>3</Position>
+      <Comment>Descripcion de la funcionalidad</Comment>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="254" parent="127" name="ID_FLOW">
+      <Position>4</Position>
+      <Comment>Corresponde al Id del flujo</Comment>
+      <DataType>VARCHAR2(60 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="255" parent="127" name="FUNCTIONALITY_PK">
+      <ObjectId>465199</ObjectId>
+      <CreatedTimestamp>2020-02-06.10:47:46</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-15.09:14:47</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID_FUNCTIONALITY</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="256" parent="127" name="FUNCTIONALITY_PK">
+      <ModifiedTimestamp>2020-02-06.10:47:46</ModifiedTimestamp>
+      <ColNames>ID_FUNCTIONALITY</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>FUNCTIONALITY_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="257" parent="128" name="ID_HISTORY_DATA">
+      <Position>1</Position>
+      <Comment>Primary key</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="258" parent="128" name="SYSTEM_DATE">
+      <Position>2</Position>
+      <Comment>Fecha </Comment>
+      <DataType>DATE|0s</DataType>
+    </column>
+    <column id="259" parent="128" name="CUSTOMER_ID">
+      <Position>3</Position>
+      <Comment>Foranea logica con la tabla CUSTOMER</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+    </column>
+    <column id="260" parent="128" name="STATE_ID">
+      <Position>4</Position>
+      <Comment>Foranea logica con la tabla STATE</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+    </column>
+    <column id="261" parent="128" name="DATA_ID">
+      <Position>5</Position>
+      <Comment>Foranea logica con la tabla SYSTEM_DATA</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+    </column>
+    <column id="262" parent="128" name="NAME_DATA">
+      <Position>6</Position>
+      <Comment>Nombre de la variable</Comment>
+      <DataType>VARCHAR2(200 byte)|0s</DataType>
+    </column>
+    <column id="263" parent="128" name="VALUE_DATA">
+      <Position>7</Position>
+      <Comment>valor de la variable</Comment>
+      <DataType>CLOB|0s</DataType>
+    </column>
+    <column id="264" parent="128" name="MOVE_DATA_DATE">
+      <Position>8</Position>
+      <Comment>Fecha</Comment>
+      <DataType>DATE|0s</DataType>
+    </column>
+    <column id="265" parent="128" name="PROCESS_FUNCTIONALITY_ID">
+      <Position>9</Position>
+      <Comment>Id del proceso vs funcionalidad</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="266" parent="128" name="CUSTOMER_TRANSACTION_ID">
+      <Position>10</Position>
+      <Comment>Id del clientes vs transaccion</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="267" parent="128" name="HISTORY_DATA_PK">
+      <ObjectId>498936</ObjectId>
+      <CreatedTimestamp>2020-04-10.06:29:56</CreatedTimestamp>
+      <ModifiedTimestamp>2020-04-10.06:29:56</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID_HISTORY_DATA</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="268" parent="128" name="HISTORY_DATA_CUSTOMER_TRANSACTION_ID_IX">
+      <ObjectId>498935</ObjectId>
+      <CreatedTimestamp>2020-04-10.06:29:56</CreatedTimestamp>
+      <ModifiedTimestamp>2020-04-10.06:29:56</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>CUSTOMER_TRANSACTION_ID</ColNames>
+    </index>
+    <key id="269" parent="128" name="HISTORY_DATA_PK">
+      <ModifiedTimestamp>2020-04-10.06:29:56</ModifiedTimestamp>
+      <ColNames>ID_HISTORY_DATA</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>HISTORY_DATA_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="270" parent="129" name="ID_HISTORY_TRANSACTION">
+      <Position>1</Position>
+      <Comment>LLave primaria de la tabla</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="271" parent="129" name="ID_TRANSACTION">
+      <Position>2</Position>
+      <Comment>id de la transaccion</Comment>
+      <DataType>NVARCHAR2(500 char)|0s</DataType>
+    </column>
+    <column id="272" parent="129" name="CUSTOMER_ID">
+      <Position>3</Position>
+      <Comment>id del cliente</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+    </column>
+    <column id="273" parent="129" name="SYSTEM_DATE">
+      <Position>4</Position>
+      <Comment>Fecha original de la transaccion</Comment>
+      <DataType>DATE|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="274" parent="129" name="MOVE_TRANSACTION_DATE">
+      <Position>5</Position>
+      <Comment>Fecha en que se mueve la transaccion a esta tabla</Comment>
+      <DataType>DATE|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="275" parent="129" name="CUSTOMER_TRANSATION_ID">
+      <Position>6</Position>
+      <Comment>Primaria de la tabla CUSTOMER_TRANSACTION</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="276" parent="129" name="ID_HISTORY_TRANSACTION_PK">
+      <ObjectId>464007</ObjectId>
+      <CreatedTimestamp>2020-02-04.12:40:48</CreatedTimestamp>
+      <ModifiedTimestamp>2020-03-03.11:16:08</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID_HISTORY_TRANSACTION</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="277" parent="129" name="HISTORY_TRANSACTION_CUSTOMER_ID_IX">
+      <ObjectId>478607</ObjectId>
+      <CreatedTimestamp>2020-03-03.11:19:26</CreatedTimestamp>
+      <ModifiedTimestamp>2020-03-03.11:19:26</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>CUSTOMER_ID</ColNames>
+    </index>
+    <index id="278" parent="129" name="HISTORY_TRANSACTION_CUSTOMER_TRANSATION_ID_IX">
+      <ObjectId>478606</ObjectId>
+      <CreatedTimestamp>2020-03-03.11:18:37</CreatedTimestamp>
+      <ModifiedTimestamp>2020-03-03.11:18:37</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>CUSTOMER_TRANSATION_ID</ColNames>
+    </index>
+    <key id="279" parent="129" name="ID_HISTORY_TRANSACTION_PK">
+      <ModifiedTimestamp>2020-02-04.12:40:48</ModifiedTimestamp>
+      <ColNames>ID_HISTORY_TRANSACTION</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>ID_HISTORY_TRANSACTION_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="280" parent="130" name="ID">
+      <Position>1</Position>
+      <Comment>Codigo aseguradora</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>INSP_DEV_CRMSERVICES.ID_INSURERS_SQ.NEXTVAL</DefaultExpression>
+    </column>
+    <column id="281" parent="130" name="NAME">
+      <Position>2</Position>
+      <Comment>Nombre aseguradora</Comment>
+      <DataType>VARCHAR2(300 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="282" parent="130" name="NUMBER_DOCUMENT">
+      <Position>3</Position>
+      <Comment>numero de documento</Comment>
+      <DataType>VARCHAR2(30 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="283" parent="130" name="ID_TYPE_DOCUMENT">
+      <Position>4</Position>
+      <Comment>tipo de documento</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="284" parent="130" name="PHONE">
+      <Position>5</Position>
+      <Comment>Telefono</Comment>
+      <DataType>VARCHAR2(30 byte)|0s</DataType>
+    </column>
+    <column id="285" parent="130" name="CONTACT">
+      <Position>6</Position>
+      <Comment>Contacto</Comment>
+      <DataType>VARCHAR2(300 byte)|0s</DataType>
+    </column>
+    <column id="286" parent="130" name="ID_STATE">
+      <Position>7</Position>
+      <Comment>Estado Registro 1 activo 0 inactivo</Comment>
+      <DataType>NUMBER(1 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="287" parent="130" name="INSURERS_PK">
+      <ObjectId>522168</ObjectId>
+      <CreatedTimestamp>2020-05-22.10:44:55</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-22.10:44:55</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="288" parent="130" name="INSURERS_PK">
+      <ModifiedTimestamp>2020-05-22.10:44:55</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>INSURERS_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="289" parent="130" name="INSURERS_TYPE_DOCUMENT_FK">
+      <ModifiedTimestamp>2020-05-22.10:44:55</ModifiedTimestamp>
+      <ColNames>ID_TYPE_DOCUMENT</ColNames>
+      <RefSchemaName>INSP_DEV_CRMSERVICES</RefSchemaName>
+      <RefTableName>TYPE_DOCUMENT</RefTableName>
+      <RefKeyName>TYPE_DOCUMENT_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <check id="290" parent="130" name="INSURERS_STATE">
+      <ModifiedTimestamp>2020-05-22.10:44:55</ModifiedTimestamp>
+      <ColNames>ID_STATE</ColNames>
+      <Predicate>ID_STATE = 1 or ID_STATE = 0</Predicate>
+    </check>
+    <column id="291" parent="131" name="ID_KNOWLEDGE_BASE">
+      <Position>1</Position>
+      <Comment>LLave primaria de la tabla</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="292" parent="131" name="NAME_KNOWLEDGE">
+      <Position>2</Position>
+      <Comment>Nombre Conocimiento</Comment>
+      <DataType>VARCHAR2(4000 byte)|0s</DataType>
+    </column>
+    <column id="293" parent="131" name="VALUE_KNOWLEDGE">
+      <Position>3</Position>
+      <Comment>Valor Conocimiento</Comment>
+      <DataType>CLOB|0s</DataType>
+    </column>
+    <column id="294" parent="131" name="PROCESS_BY_FUNCTIONALITY_ID">
+      <Position>4</Position>
+      <Comment>Foranea logica</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="295" parent="131" name="KNOWLEDGE_BASE_PK">
+      <ObjectId>500256</ObjectId>
+      <CreatedTimestamp>2020-04-13.10:09:05</CreatedTimestamp>
+      <ModifiedTimestamp>2020-04-13.10:09:05</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID_KNOWLEDGE_BASE</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="296" parent="131" name="KNOWLEDGE_BASE_PK">
+      <ModifiedTimestamp>2020-04-13.10:09:05</ModifiedTimestamp>
+      <ColNames>ID_KNOWLEDGE_BASE</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>KNOWLEDGE_BASE_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="297" parent="132" name="ID_PRIMARY">
+      <Position>1</Position>
+      <Comment>Llave primaria de la tabla</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="298" parent="132" name="PROCESS_FUNCTIONALITY_ID">
+      <Position>2</Position>
+      <Comment>Foranea con la tabla knowledge_base</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="299" parent="132" name="QUESTION">
+      <Position>3</Position>
+      <Comment>Pregunta proceso de Claro</Comment>
+      <DataType>CLOB|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="300" parent="132" name="ANSWER">
+      <Position>4</Position>
+      <Comment>Respuesta del proceso de Claro</Comment>
+      <DataType>CLOB|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="301" parent="132" name="UTIL_TIMES_ANSWER">
+      <Position>5</Position>
+      <Comment>Tiempo de respuesta</Comment>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="302" parent="132" name="KNOWLEDGE_BASE_FAQ_PK">
+      <ObjectId>500292</ObjectId>
+      <CreatedTimestamp>2020-04-13.12:36:06</CreatedTimestamp>
+      <ModifiedTimestamp>2020-04-13.12:36:06</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID_PRIMARY</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="303" parent="132" name="KNOWLEDGE_BASE_FAQ_PK">
+      <ModifiedTimestamp>2020-04-13.12:36:06</ModifiedTimestamp>
+      <ColNames>ID_PRIMARY</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>KNOWLEDGE_BASE_FAQ_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="304" parent="132" name="KNOWLEDGE_BASE_FAQ_PROCESS_FUNCTIONALITY_ID_FK">
+      <ModifiedTimestamp>2020-04-15.10:02:47</ModifiedTimestamp>
+      <ColNames>PROCESS_FUNCTIONALITY_ID</ColNames>
+      <RefSchemaName>INSP_DEV_CRMSERVICES</RefSchemaName>
+      <RefTableName>PROCESS_BY_FUNCTIONALITY</RefTableName>
+      <RefKeyName>ID_PROCESS_FUNCTIONALITY_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="305" parent="133" name="ID">
+      <Position>1</Position>
+      <Comment>Id Marca</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>INSP_DEV_CRMSERVICES.ID_MARK_SQ.NEXTVAL</DefaultExpression>
+    </column>
+    <column id="306" parent="133" name="NAME">
+      <Position>2</Position>
+      <Comment>Nombre</Comment>
+      <DataType>VARCHAR2(300 byte)|0s</DataType>
+    </column>
+    <column id="307" parent="133" name="ID_STATE">
+      <Position>3</Position>
+      <Comment>Estado Registro 1 activo 0 inactivo</Comment>
+      <DataType>NUMBER(1 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="308" parent="133" name="MARK_PK">
+      <ObjectId>522174</ObjectId>
+      <CreatedTimestamp>2020-05-22.10:44:59</CreatedTimestamp>
+      <ModifiedTimestamp>2020-05-22.10:44:59</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="309" parent="133" name="MARK_PK">
+      <ModifiedTimestamp>2020-05-22.10:44:59</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>MARK_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <check id="310" parent="133" name="MARK_STATE">
+      <ModifiedTimestamp>2020-05-22.10:44:59</ModifiedTimestamp>
+      <ColNames>ID_STATE</ColNames>
+      <Predicate>ID_STATE = 1 or ID_STATE = 0</Predicate>
+    </check>
+    <column id="311" parent="134" name="ID_PARAMETER">
+      <Position>1</Position>
+      <Comment>Columna correspondiente a la primary key de la tabla.</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>INSP_DEV_CRMSERVICES.ID_PARAMETER_SQ.NEXTVAL</DefaultExpression>
+    </column>
+    <column id="312" parent="134" name="NAME_PARAMETER">
+      <Position>2</Position>
+      <Comment>Nombre del parametro</Comment>
+      <DataType>VARCHAR2(4000 byte)|0s</DataType>
+    </column>
+    <column id="313" parent="134" name="VALUE_PARAMETER">
+      <Position>3</Position>
+      <Comment>Valor correspondiente al parámetro.</Comment>
+      <DataType>CLOB|0s</DataType>
+    </column>
+    <column id="314" parent="134" name="DESCRIPTION_PARAMETER">
+      <Position>4</Position>
+      <Comment>La descripción del parametro</Comment>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="315" parent="134" name="TYPED">
+      <Position>5</Position>
+      <Comment>Tipado</Comment>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="316" parent="134" name="GROUP_PARAMETER">
+      <Position>6</Position>
+      <Comment>Columna donde se van a agrupar los parametros</Comment>
+      <DataType>VARCHAR2(4000 byte)|0s</DataType>
+    </column>
+    <index id="317" parent="134" name="ID_PARAMETER_PK">
+      <ObjectId>500777</ObjectId>
+      <CreatedTimestamp>2020-04-14.12:51:07</CreatedTimestamp>
+      <ModifiedTimestamp>2020-04-14.12:51:07</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID_PARAMETER</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="318" parent="134" name="ID_PARAMETER_PK">
+      <ModifiedTimestamp>2020-04-14.12:51:07</ModifiedTimestamp>
+      <ColNames>ID_PARAMETER</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>ID_PARAMETER_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="319" parent="135" name="ID">
+      <Position>1</Position>
+      <Comment>Id caso pqr</Comment>
+      <DataType>NUMBER(15 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="320" parent="135" name="REQUEST">
+      <Position>2</Position>
+      <Comment>Solicitud</Comment>
+      <DataType>VARCHAR2(300 byte)|0s</DataType>
+    </column>
+    <column id="321" parent="135" name="REASON">
+      <Position>3</Position>
+      <Comment>Motivo</Comment>
+      <DataType>VARCHAR2(300 byte)|0s</DataType>
+    </column>
+    <column id="322" parent="135" name="PHONE_NUMBER">
+      <Position>4</Position>
+      <Comment>Numero telefonico</Comment>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <column id="323" parent="135" name="ADDRESSED_TO">
+      <Position>5</Position>
+      <Comment>Dirigido a</Comment>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="324" parent="135" name="APPLICANT_NAME">
+      <Position>6</Position>
+      <Comment>Nombre </Comment>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="325" parent="135" name="APPLICANT_SURNAME">
+      <Position>7</Position>
+      <Comment>Apellido</Comment>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="326" parent="135" name="EMAIL">
+      <Position>8</Position>
+      <Comment>Correo electronico</Comment>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="327" parent="135" name="CONTACT_NUMBER">
+      <Position>9</Position>
+      <Comment>Numero de contacto</Comment>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <column id="328" parent="135" name="REQUEST_OBJECT">
+      <Position>10</Position>
+      <Comment>Objeto de solicitud</Comment>
+      <DataType>VARCHAR2(4000 byte)|0s</DataType>
+    </column>
+    <column id="329" parent="135" name="FACTS_REQUEST">
+      <Position>11</Position>
+      <Comment>Hechos de solicitud</Comment>
+      <DataType>VARCHAR2(4000 byte)|0s</DataType>
+    </column>
+    <column id="330" parent="135" name="ACCOUNT_NUMBER">
+      <Position>12</Position>
+      <Comment>Numero de cuenta</Comment>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="331" parent="135" name="TRANSACTION">
+      <Position>13</Position>
+      <Comment>Transaccion</Comment>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="332" parent="135" name="ID_STATE">
+      <Position>14</Position>
+      <Comment>Estado</Comment>
+      <DataType>NUMBER(1 digit)|0s</DataType>
+    </column>
+    <column id="333" parent="135" name="DATE_CASE">
+      <Position>15</Position>
+      <DataType>DATE|0s</DataType>
+    </column>
+    <index id="334" parent="135" name="PQR_CASE_PK">
+      <ObjectId>528633</ObjectId>
+      <CreatedTimestamp>2020-06-03.05:45:26</CreatedTimestamp>
+      <ModifiedTimestamp>2020-06-03.05:45:26</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="335" parent="135" name="PQR_CASE_PK">
+      <ModifiedTimestamp>2020-06-03.05:45:26</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PQR_CASE_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <check id="336" parent="135" name="PQR_CASE_STATE">
+      <ModifiedTimestamp>2020-06-03.05:45:26</ModifiedTimestamp>
+      <ColNames>ID_STATE</ColNames>
+      <Predicate>ID_STATE = 1 or ID_STATE = 0</Predicate>
+    </check>
+    <column id="337" parent="136" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(15 digit)|0s</DataType>
+    </column>
+    <column id="338" parent="136" name="REQUEST">
+      <Position>2</Position>
+      <DataType>VARCHAR2(300 byte)|0s</DataType>
+    </column>
+    <column id="339" parent="136" name="REASON">
+      <Position>3</Position>
+      <DataType>VARCHAR2(300 byte)|0s</DataType>
+    </column>
+    <column id="340" parent="136" name="PHONE_NUMBER">
+      <Position>4</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <column id="341" parent="136" name="ADDRESSED_TO">
+      <Position>5</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="342" parent="136" name="APPLICANT_NAME">
+      <Position>6</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="343" parent="136" name="APPLICANT_SURNAME">
+      <Position>7</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="344" parent="136" name="EMAIL">
+      <Position>8</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="345" parent="136" name="CONTACT_NUMBER">
+      <Position>9</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <column id="346" parent="136" name="REQUEST_OBJECT">
+      <Position>10</Position>
+      <DataType>VARCHAR2(4000 byte)|0s</DataType>
+    </column>
+    <column id="347" parent="136" name="FACTS_REQUEST">
+      <Position>11</Position>
+      <DataType>VARCHAR2(4000 byte)|0s</DataType>
+    </column>
+    <column id="348" parent="136" name="ACCOUNT_NUMBER">
+      <Position>12</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="349" parent="136" name="TRANSACTION">
+      <Position>13</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="350" parent="136" name="ID_STATE">
+      <Position>14</Position>
+      <DataType>NUMBER(1 digit)|0s</DataType>
+    </column>
+    <column id="351" parent="136" name="DATE_CASE">
+      <Position>15</Position>
+      <DataType>DATE|0s</DataType>
+    </column>
+    <column id="352" parent="136" name="ID_CATEGORY">
+      <Position>16</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="353" parent="136" name="ID_SUBCATEGORY">
+      <Position>17</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="354" parent="136" name="ID_CUSTOMER_VOICE">
+      <Position>18</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="355" parent="136" name="ID_CLOSE_CODE">
+      <Position>19</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="356" parent="136" name="ORIGIN_CASE">
+      <Position>20</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="357" parent="136" name="CASE_DATE_END">
+      <Position>21</Position>
+      <DataType>DATE|0s</DataType>
+    </column>
+    <column id="358" parent="136" name="CASE_HOUR">
+      <Position>22</Position>
+      <DataType>DATE|0s</DataType>
+    </column>
+    <column id="359" parent="136" name="CASE_HOUR_END">
+      <Position>23</Position>
+      <DataType>DATE|0s</DataType>
+    </column>
+    <column id="360" parent="136" name="CHANNEL">
+      <Position>24</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="361" parent="136" name="ADVISER">
+      <Position>25</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="362" parent="136" name="COMMENTS">
+      <Position>26</Position>
+      <DataType>VARCHAR2(4000 byte)|0s</DataType>
+    </column>
+    <column id="363" parent="136" name="CUSTOMER_IDENTIFICATION">
+      <Position>27</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="364" parent="136" name="PERSON_REPORT">
+      <Position>28</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <column id="365" parent="136" name="NAME_PERSON_REPORT">
+      <Position>29</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="366" parent="136" name="NODE">
+      <Position>30</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="367" parent="136" name="CCMM">
+      <Position>31</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="368" parent="136" name="PRODUCT">
+      <Position>32</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="369" parent="136" name="SERVICE">
+      <Position>33</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="370" parent="136" name="SUBSERVICE">
+      <Position>34</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="371" parent="136" name="FUNCTIONALITY">
+      <Position>35</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="372" parent="136" name="STATUS_REASON">
+      <Position>36</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="373" parent="136" name="TIME_BY_STATE">
+      <Position>37</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="374" parent="136" name="SLA">
+      <Position>38</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="375" parent="136" name="ADDRESS_FAILS">
+      <Position>39</Position>
+      <DataType>VARCHAR2(300 byte)|0s</DataType>
+    </column>
+    <column id="376" parent="136" name="CITY">
+      <Position>40</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="377" parent="136" name="DEPARTMENT">
+      <Position>41</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="378" parent="136" name="LATITUDE">
+      <Position>42</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="379" parent="136" name="LONGITUDE">
+      <Position>43</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="380" parent="136" name="SECTOR">
+      <Position>44</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="381" parent="136" name="ZONE">
+      <Position>45</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="382" parent="136" name="ZONE_TYPE">
+      <Position>46</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="383" parent="136" name="DIAGNOSIS_LEVEL">
+      <Position>47</Position>
+      <DataType>VARCHAR2(4000 byte)|0s</DataType>
+    </column>
+    <column id="384" parent="136" name="TYPIFICATION_CLOSE_CASE">
+      <Position>48</Position>
+      <DataType>VARCHAR2(4000 byte)|0s</DataType>
+    </column>
+    <column id="385" parent="136" name="DIAGNOSTIC_GUIDE">
+      <Position>49</Position>
+      <DataType>VARCHAR2(4000 byte)|0s</DataType>
+    </column>
+    <column id="386" parent="136" name="CAUSE">
+      <Position>50</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="387" parent="136" name="ACTION">
+      <Position>51</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="388" parent="136" name="CASE_ASSIGNMENT_GROUP">
+      <Position>52</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="389" parent="136" name="INCIDENT_ASSIGNMENT_GROUP">
+      <Position>53</Position>
+      <DataType>VARCHAR2(4000 byte)|0s</DataType>
+    </column>
+    <column id="390" parent="136" name="NOTES">
+      <Position>54</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="391" parent="136" name="IMPACT">
+      <Position>55</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="392" parent="136" name="URGENCY">
+      <Position>56</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="393" parent="136" name="PRIORITY">
+      <Position>57</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="394" parent="136" name="RELATED_INCIDENT">
+      <Position>58</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="395" parent="136" name="RELATED_CHANGE">
+      <Position>59</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="396" parent="136" name="ID_PUBLICATION">
+      <Position>60</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="397" parent="136" name="FAILURE_DATE">
+      <Position>61</Position>
+      <DataType>TIMESTAMP(6)|0s</DataType>
+    </column>
+    <column id="398" parent="136" name="FAILURE_DATE_SOLUTION">
+      <Position>62</Position>
+      <DataType>TIMESTAMP(6)|0s</DataType>
+    </column>
+    <column id="399" parent="136" name="INCIDENT_MANAGEMENT_SYSTEM">
+      <Position>63</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="400" parent="136" name="BASE_STATIONS">
+      <Position>64</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="401" parent="136" name="MSISDN_FAILURE">
+      <Position>65</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="402" parent="136" name="TECHNOLOGY">
+      <Position>66</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="403" parent="136" name="LINE_TYPE">
+      <Position>67</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="404" parent="136" name="PLAN_TYPE">
+      <Position>68</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="405" parent="136" name="EQUIPMENT_MODEL">
+      <Position>69</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="406" parent="137" name="ID_PROCESS">
+      <Position>1</Position>
+      <Comment>Primary key</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>INSP_DEV_CRMSERVICES.ID_PROCESS_SQ.NEXTVAL</DefaultExpression>
+    </column>
+    <column id="407" parent="137" name="TYPE_PROCESS_ID">
+      <Position>2</Position>
+      <Comment>Foranea con la tabla TYPE_PROCESS</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+    </column>
+    <column id="408" parent="137" name="NAME_PROCESS">
+      <Position>3</Position>
+      <Comment>Nombre del proceso</Comment>
+      <DataType>VARCHAR2(300 byte)|0s</DataType>
+    </column>
+    <index id="409" parent="137" name="PROCESS_PK">
+      <ObjectId>465201</ObjectId>
+      <CreatedTimestamp>2020-02-06.10:49:18</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-15.09:15:04</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID_PROCESS</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="410" parent="137" name="PROCESS_TYPE_PROCESS_ID_IX">
+      <ObjectId>465203</ObjectId>
+      <CreatedTimestamp>2020-02-06.10:50:06</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-15.09:15:04</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>TYPE_PROCESS_ID</ColNames>
+    </index>
+    <key id="411" parent="137" name="PROCESS_PK">
+      <ModifiedTimestamp>2020-02-06.10:49:18</ModifiedTimestamp>
+      <ColNames>ID_PROCESS</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PROCESS_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="412" parent="137" name="PROCESS_TYPE_PROCESS_FK">
+      <ModifiedTimestamp>2020-02-15.09:17:40</ModifiedTimestamp>
+      <ColNames>TYPE_PROCESS_ID</ColNames>
+      <RefSchemaName>INSP_DEV_CRMSERVICES</RefSchemaName>
+      <RefTableName>TYPE_PROCESS</RefTableName>
+      <RefKeyName>TYPE_PROCESS_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="413" parent="138" name="ID_PROCESS_FUNCTIONALITY">
+      <Position>1</Position>
+      <Comment>Primary key de la tabla</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>INSP_DEV_CRMSERVICES.ID_PROCESS_FUNCTIONALITY_SQ.NEXTVAL</DefaultExpression>
+    </column>
+    <column id="414" parent="138" name="FUNCTIONALITY_ID">
+      <Position>2</Position>
+      <Comment>Foranea con la tabla FUNCTIONALITY</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+    </column>
+    <column id="415" parent="138" name="PROCESS_ID">
+      <Position>3</Position>
+      <Comment>Foranea con la tabla PROCESS</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+    </column>
+    <column id="416" parent="138" name="STATE_ID">
+      <Position>4</Position>
+      <Comment>Foranea con la tabla STATE</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+    </column>
+    <column id="417" parent="138" name="ORDER_FUNCTIONALITY">
+      <Position>5</Position>
+      <Comment>Orden en que se ejecuta el proceso</Comment>
+      <DataType>NUMBER(*)|0s</DataType>
+    </column>
+    <column id="418" parent="138" name="ACTION">
+      <Position>6</Position>
+      <Comment>Metodo de un controlador</Comment>
+      <DataType>NVARCHAR2(100 char)|0s</DataType>
+    </column>
+    <column id="419" parent="138" name="CONTROLLER">
+      <Position>7</Position>
+      <Comment>Nombre de la logica de negocio a ejecutar desde Web</Comment>
+      <DataType>NVARCHAR2(100 char)|0s</DataType>
+    </column>
+    <index id="420" parent="138" name="ID_PROCESS_FUNCTIONALITY_PK">
+      <ObjectId>464018</ObjectId>
+      <CreatedTimestamp>2020-02-04.12:41:40</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-15.09:15:12</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID_PROCESS_FUNCTIONALITY</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="421" parent="138" name="PROCESS_BY_FUNCTIONALITY_PROCESS_ID_IX">
+      <ObjectId>466231</ObjectId>
+      <CreatedTimestamp>2020-02-08.08:02:41</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-15.09:15:12</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>PROCESS_ID</ColNames>
+    </index>
+    <index id="422" parent="138" name="PROCESS_BY_FUNCTIONALITY_STATE_ID_IX">
+      <ObjectId>466232</ObjectId>
+      <CreatedTimestamp>2020-02-08.08:02:41</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-15.09:15:12</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>STATE_ID</ColNames>
+    </index>
+    <key id="423" parent="138" name="ID_PROCESS_FUNCTIONALITY_PK">
+      <ModifiedTimestamp>2020-02-04.12:41:40</ModifiedTimestamp>
+      <ColNames>ID_PROCESS_FUNCTIONALITY</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>ID_PROCESS_FUNCTIONALITY_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="424" parent="138" name="PROCESS_BY_FUNCTIONALITY_FUNCTIONALITY_FK">
+      <ModifiedTimestamp>2020-02-15.09:17:54</ModifiedTimestamp>
+      <ColNames>FUNCTIONALITY_ID</ColNames>
+      <RefSchemaName>INSP_DEV_CRMSERVICES</RefSchemaName>
+      <RefTableName>FUNCTIONALITY</RefTableName>
+      <RefKeyName>FUNCTIONALITY_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="425" parent="138" name="PROCESS_BY_FUNCTIONALITY_PROCESS_FK">
+      <ModifiedTimestamp>2020-02-15.09:17:54</ModifiedTimestamp>
+      <ColNames>PROCESS_ID</ColNames>
+      <RefSchemaName>INSP_DEV_CRMSERVICES</RefSchemaName>
+      <RefTableName>PROCESS</RefTableName>
+      <RefKeyName>PROCESS_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="426" parent="138" name="PROCESS_BY_FUNCTIONALITY_STATE_FK">
+      <ModifiedTimestamp>2020-02-15.09:17:54</ModifiedTimestamp>
+      <ColNames>STATE_ID</ColNames>
+      <RefSchemaName>INSP_DEV_CRMSERVICES</RefSchemaName>
+      <RefTableName>STATE</RefTableName>
+      <RefKeyName>ID_STATE_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="427" parent="139" name="ID_STATE">
+      <Position>1</Position>
+      <Comment>Llave primaria de la tabla</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>INSP_DEV_CRMSERVICES.ID_STATE_SQ.NEXTVAL</DefaultExpression>
+    </column>
+    <column id="428" parent="139" name="NAME_STATE">
+      <Position>2</Position>
+      <Comment>Nombre del estado</Comment>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="429" parent="139" name="VALUE_STATE">
+      <Position>3</Position>
+      <Comment>Valor del estado</Comment>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <index id="430" parent="139" name="ID_STATE_PK">
+      <ObjectId>464021</ObjectId>
+      <CreatedTimestamp>2020-02-04.12:41:54</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-15.09:15:18</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID_STATE</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="431" parent="139" name="ID_STATE_PK">
+      <ModifiedTimestamp>2020-02-04.12:41:54</ModifiedTimestamp>
+      <ColNames>ID_STATE</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>ID_STATE_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="432" parent="140" name="ID_DATA">
+      <Position>1</Position>
+      <Comment>Primary key</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="433" parent="140" name="NAME_DATA">
+      <Position>2</Position>
+      <Comment>Nombre </Comment>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="434" parent="140" name="VALUE_DATA">
+      <Position>3</Position>
+      <Comment>valor</Comment>
+      <DataType>CLOB|0s</DataType>
+    </column>
+    <column id="435" parent="140" name="PROCESS_FUNCTIONALITY_ID">
+      <Position>4</Position>
+      <Comment>Foranea con la tabla PROCESS_BY_FUNCTIONALITY</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="436" parent="140" name="CUSTOMER_TRANSACTION_ID">
+      <Position>5</Position>
+      <Comment>Foranea con la tabla CUSTOMER_TRANSACTION</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="437" parent="140" name="SYSTEM_DATE">
+      <Position>6</Position>
+      <Comment>Fecha del sistema</Comment>
+      <DataType>DATE|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="438" parent="140" name="ID_DATA_PK">
+      <ObjectId>498916</ObjectId>
+      <CreatedTimestamp>2020-04-10.06:27:41</CreatedTimestamp>
+      <ModifiedTimestamp>2020-04-10.06:27:41</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID_DATA</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="439" parent="140" name="SYSTEM_DATA_PROCESS_FUNCTIONALITY_ID_IX">
+      <ObjectId>498915</ObjectId>
+      <CreatedTimestamp>2020-04-10.06:27:41</CreatedTimestamp>
+      <ModifiedTimestamp>2020-04-10.06:27:41</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>PROCESS_FUNCTIONALITY_ID</ColNames>
+    </index>
+    <index id="440" parent="140" name="SYSTEM_DATA_CUSTOMER_TRANSACTION_ID_IX">
+      <ObjectId>498914</ObjectId>
+      <CreatedTimestamp>2020-04-10.06:27:40</CreatedTimestamp>
+      <ModifiedTimestamp>2020-04-10.06:27:40</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>CUSTOMER_TRANSACTION_ID</ColNames>
+    </index>
+    <key id="441" parent="140" name="ID_DATA_PK">
+      <ModifiedTimestamp>2020-04-10.06:27:41</ModifiedTimestamp>
+      <ColNames>ID_DATA</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>ID_DATA_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="442" parent="140" name="SYSTEM_DATA_PROCESS_BY_FUNCTIONALITY_FK">
+      <ModifiedTimestamp>2020-04-10.06:27:42</ModifiedTimestamp>
+      <ColNames>PROCESS_FUNCTIONALITY_ID</ColNames>
+      <RefSchemaName>INSP_DEV_CRMSERVICES</RefSchemaName>
+      <RefTableName>PROCESS_BY_FUNCTIONALITY</RefTableName>
+      <RefKeyName>ID_PROCESS_FUNCTIONALITY_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="443" parent="140" name="SYSTEM_DATA_CUSTOMER_TRANSACTION_FK">
+      <ModifiedTimestamp>2020-04-10.06:27:41</ModifiedTimestamp>
+      <ColNames>CUSTOMER_TRANSACTION_ID</ColNames>
+      <RefSchemaName>INSP_DEV_CRMSERVICES</RefSchemaName>
+      <RefTableName>CUSTOMER_TRANSACTION</RefTableName>
+      <RefKeyName>CUSTOMER_TRANSACTION_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="444" parent="141" name="COLUMN1">
+      <Position>1</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <column id="445" parent="141" name="COLUMN2">
+      <Position>2</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <column id="446" parent="142" name="ID_TRACE_LOG">
+      <Position>1</Position>
+      <Comment>Columna correspondiente a la primary key de la tabla.</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="447" parent="142" name="SERVICE">
+      <Position>2</Position>
+      <Comment>Se almacena el servicio que se está ejecutando en el momento. </Comment>
+      <DataType>NVARCHAR2(2000 char)|0s</DataType>
+    </column>
+    <column id="448" parent="142" name="METHOD">
+      <Position>3</Position>
+      <Comment>Se almacena el método por el que se está ejecutando.</Comment>
+      <DataType>NVARCHAR2(2000 char)|0s</DataType>
+    </column>
+    <column id="449" parent="142" name="PROCESS_DATE">
+      <Position>4</Position>
+      <Comment>Fecha del proceso</Comment>
+      <DataType>DATE|0s</DataType>
+    </column>
+    <column id="450" parent="142" name="TRANSACTION_LOG">
+      <Position>5</Position>
+      <Comment>GUId.</Comment>
+      <DataType>NVARCHAR2(200 char)|0s</DataType>
+    </column>
+    <column id="451" parent="142" name="TYPED">
+      <Position>6</Position>
+      <Comment>Tipado</Comment>
+      <DataType>NVARCHAR2(200 char)|0s</DataType>
+    </column>
+    <column id="452" parent="142" name="IO_DATA">
+      <Position>7</Position>
+      <Comment>Entrada y salida de los servicios</Comment>
+      <DataType>CLOB|0s</DataType>
+    </column>
+    <index id="453" parent="142" name="ID_TRACE_LOG_PK">
+      <ObjectId>469416</ObjectId>
+      <CreatedTimestamp>2020-02-14.05:23:02</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-15.09:15:42</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID_TRACE_LOG</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="454" parent="142" name="ID_TRACE_LOG_PK">
+      <ModifiedTimestamp>2020-02-14.05:23:02</ModifiedTimestamp>
+      <ColNames>ID_TRACE_LOG</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>ID_TRACE_LOG_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="455" parent="143" name="IIDTYPEDOCUMENTS">
+      <Position>1</Position>
+      <Comment>LLave primaria de la tabla manejada con una secuencia
+</Comment>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+      <AutoInc>1</AutoInc>
+      <DefaultOnNull>1</DefaultOnNull>
+    </column>
+    <column id="456" parent="143" name="VTYPEDOCUMENT">
+      <Position>2</Position>
+      <Comment>Nombre Tipo de documento</Comment>
+      <DataType>VARCHAR2(200 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="457" parent="143" name="ICODEFLOW">
+      <Position>3</Position>
+      <Comment>Id del tipo de identificacion usado en los flujos de imei.</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="458" parent="143" name="ICODEGCONTPROFIELD">
+      <Position>4</Position>
+      <Comment>Id del tipo de identificación Homologado para el servicio GetContextProfile</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+    </column>
+    <index id="459" parent="143" name="TYPEDOCUMENTSGCONTPROF_PK">
+      <ObjectId>474400</ObjectId>
+      <CreatedTimestamp>2020-02-24.06:27:37</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-24.06:27:37</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>IIDTYPEDOCUMENTS</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="460" parent="143" name="TYPEDOCUMENTSGCONTPROF_PK">
+      <ModifiedTimestamp>2020-02-24.06:27:37</ModifiedTimestamp>
+      <ColNames>IIDTYPEDOCUMENTS</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>TYPEDOCUMENTSGCONTPROF_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="461" parent="144" name="IIDTYPEDOCUMENTS">
+      <Position>1</Position>
+      <Comment>LLave primaria de la tabla manejada con una secuencia
+</Comment>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+      <AutoInc>1</AutoInc>
+      <DefaultOnNull>1</DefaultOnNull>
+    </column>
+    <column id="462" parent="144" name="VTYPEDOCUMENT">
+      <Position>2</Position>
+      <Comment>Nombre tipo de documento</Comment>
+      <DataType>VARCHAR2(200 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="463" parent="144" name="ICODEFLOW">
+      <Position>3</Position>
+      <Comment>Id del tipo de identificacion usado en los flujos de imei </Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="464" parent="144" name="ICODEBUREAU">
+      <Position>4</Position>
+      <Comment>Id del tipo de identficación Homologado para el servicio Bureau</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+    </column>
+    <index id="465" parent="144" name="TYPEDOCUMENTSBUREAU_PK">
+      <ObjectId>473110</ObjectId>
+      <CreatedTimestamp>2020-02-21.10:32:11</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-21.10:32:11</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>IIDTYPEDOCUMENTS</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="466" parent="144" name="TYPEDOCUMENTSBUREAU_PK">
+      <ModifiedTimestamp>2020-02-21.10:32:11</ModifiedTimestamp>
+      <ColNames>IIDTYPEDOCUMENTS</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>TYPEDOCUMENTSBUREAU_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="467" parent="145" name="IIDTYPEDOCUMENTS">
+      <Position>1</Position>
+      <Comment>&quot;LLave primaria de la tabla manejada con una secuencia
+&quot;
+</Comment>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+      <AutoInc>1</AutoInc>
+      <DefaultOnNull>1</DefaultOnNull>
+    </column>
+    <column id="468" parent="145" name="VTYPEDOCUMENT">
+      <Position>2</Position>
+      <Comment>Nombre tipo de documento
+</Comment>
+      <DataType>VARCHAR2(200 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="469" parent="145" name="ICODEFLOW">
+      <Position>3</Position>
+      <Comment>Id del tipo de identificacion usado en los flujos de imei 
+</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="470" parent="145" name="ICODEIMEI">
+      <Position>4</Position>
+      <Comment>Id del tipo de identificación Homologado para el consumo de las operaciones de imei</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+    </column>
+    <index id="471" parent="145" name="TYPEDOCUMENTSIMEI_PK">
+      <ObjectId>473107</ObjectId>
+      <CreatedTimestamp>2020-02-21.10:30:54</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-21.10:30:54</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>IIDTYPEDOCUMENTS</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="472" parent="145" name="TYPEDOCUMENTSIMEI_PK">
+      <ModifiedTimestamp>2020-02-21.10:30:54</ModifiedTimestamp>
+      <ColNames>IIDTYPEDOCUMENTS</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>TYPEDOCUMENTSIMEI_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="473" parent="146" name="ID_TYPE_ACCOUNT">
+      <Position>1</Position>
+      <Comment>LLave primaria de la tabla</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="474" parent="146" name="NAME_TYPE_ACCOUNT">
+      <Position>2</Position>
+      <Comment>Tipo de cuenta</Comment>
+      <DataType>VARCHAR2(300 byte)|0s</DataType>
+    </column>
+    <column id="475" parent="146" name="DESCRIPTION_TYPE_ACCOUNT">
+      <Position>3</Position>
+      <Comment>Descripcion del tipo de cuenta</Comment>
+      <DataType>VARCHAR2(300 byte)|0s</DataType>
+    </column>
+    <index id="476" parent="146" name="ID_TYPE_ACCOUNT_PK">
+      <ObjectId>464041</ObjectId>
+      <CreatedTimestamp>2020-02-04.12:42:57</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-15.09:15:51</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID_TYPE_ACCOUNT</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="477" parent="146" name="ID_TYPE_ACCOUNT_PK">
+      <ModifiedTimestamp>2020-02-04.12:42:57</ModifiedTimestamp>
+      <ColNames>ID_TYPE_ACCOUNT</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>ID_TYPE_ACCOUNT_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="478" parent="147" name="ID_TYPE_DOCUMENT">
+      <Position>1</Position>
+      <Comment>LLave primaria de la tabla manejada con una secuencia</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="479" parent="147" name="TYPE_DOC">
+      <Position>2</Position>
+      <Comment>Tipo de documento</Comment>
+      <DataType>NVARCHAR2(100 char)|0s</DataType>
+    </column>
+    <column id="480" parent="147" name="DESCRIPTION_TYPE_DOCUMENT">
+      <Position>3</Position>
+      <Comment>Descripcion del tipo de documento</Comment>
+      <DataType>NVARCHAR2(100 char)|0s</DataType>
+    </column>
+    <index id="481" parent="147" name="TYPE_DOCUMENT_PK">
+      <ObjectId>467866</ObjectId>
+      <CreatedTimestamp>2020-02-11.06:29:21</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-15.09:16:12</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID_TYPE_DOCUMENT</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="482" parent="147" name="TYPE_DOCUMENT_PK">
+      <ModifiedTimestamp>2020-02-11.06:29:21</ModifiedTimestamp>
+      <ColNames>ID_TYPE_DOCUMENT</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>TYPE_DOCUMENT_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="483" parent="148" name="ID_TYPE_PROCESS">
+      <Position>1</Position>
+      <Comment>Llave primaria de la tabla</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>INSP_DEV_CRMSERVICES.ID_TYPE_PROCESS_SQ.NEXTVAL</DefaultExpression>
+    </column>
+    <column id="484" parent="148" name="NAME_TYPE_PROCESS">
+      <Position>2</Position>
+      <Comment>Tipo de proceso</Comment>
+      <DataType>VARCHAR2(200 byte)|0s</DataType>
+    </column>
+    <column id="485" parent="148" name="STATE_ID">
+      <Position>3</Position>
+      <Comment>Estado del tipo de proceso</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="486" parent="148" name="DESCRIPTION_TYPE_PROCESS">
+      <Position>4</Position>
+      <Comment>Descripcion del tipo del proceso</Comment>
+      <DataType>VARCHAR2(300 byte)|0s</DataType>
+    </column>
+    <index id="487" parent="148" name="TYPE_PROCESS_PK">
+      <ObjectId>465204</ObjectId>
+      <CreatedTimestamp>2020-02-06.10:53:11</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-15.09:15:58</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID_TYPE_PROCESS</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="488" parent="148" name="TYPE_PROCESS_STATE_ID_IX">
+      <ObjectId>466209</ObjectId>
+      <CreatedTimestamp>2020-02-08.06:18:08</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-15.09:15:58</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>STATE_ID</ColNames>
+    </index>
+    <key id="489" parent="148" name="TYPE_PROCESS_PK">
+      <ModifiedTimestamp>2020-02-06.10:53:11</ModifiedTimestamp>
+      <ColNames>ID_TYPE_PROCESS</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>TYPE_PROCESS_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="490" parent="148" name="TYPE_PROCESS_STATE_FK">
+      <ModifiedTimestamp>2020-02-15.09:18:30</ModifiedTimestamp>
+      <ColNames>STATE_ID</ColNames>
+      <RefSchemaName>INSP_DEV_CRMSERVICES</RefSchemaName>
+      <RefTableName>STATE</RefTableName>
+      <RefKeyName>ID_STATE_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <body id="491" parent="149" name="ACTIVITY_DEVICE_PKG">
+      <ObjectId>524470</ObjectId>
+      <SourceTextLength>15384</SourceTextLength>
+      <DependsOnIds>463976,467865,522165,522167,522169,522171,522173,522175,524420,524424</DependsOnIds>
+      <CreatedTimestamp>2020-05-26.06:31:53</CreatedTimestamp>
+      <ModifiedTimestamp>2020-06-01.04:59:22</ModifiedTimestamp>
+    </body>
+    <routine id="492" parent="149" name="INS_DEVICE_SP">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="493" parent="149" name="UPD_DEVICE_SP">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="494" parent="149" name="CON_DEVICE_SP">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="495" parent="149" name="INS_DEVICE_DETAIL_SP">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="496" parent="149" name="UPD_DEVICE_DETAIL_SP">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="497" parent="149" name="CON_DEVICE_DETAIL_SP">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="498" parent="149" name="INS_ACTIVITY_SP">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="499" parent="149" name="UPD_ACTIVITY_SP">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="500" parent="149" name="CON_ACTIVITY_SP">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="501" parent="149" name="CON_CUSTOMER_ACTIVITY">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="502" parent="149" name="CON_ACTIVITY_STATUS_SP">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="503" parent="149" name="CONPR_ACTIVITY_STATUS_SP">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="504" parent="149" name="CON_DEVICE_TYPE_SP">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="505" parent="149" name="CONPR_DEVICE_TYPE_SP">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="506" parent="149" name="CON_DEVICE_STATUS_SP">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="507" parent="149" name="CONPR_DEVICE_STATUS_SP">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="508" parent="149" name="CON_MARK_SP">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="509" parent="149" name="CONPR_MARK_SP">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="510" parent="149" name="CON_INSURERS_SP">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="511" parent="149" name="CONPR_INSURERS_SP">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <body id="512" parent="151" name="PKG_DOCUMENT_TEMPLATE">
+      <ObjectId>482450</ObjectId>
+      <SourceTextLength>2273</SourceTextLength>
+      <DependsOnIds>481952,481953</DependsOnIds>
+      <CreatedTimestamp>2020-03-11.04:08:46</CreatedTimestamp>
+      <ModifiedTimestamp>2020-03-31.11:22:07</ModifiedTimestamp>
+    </body>
+    <routine id="513" parent="151" name="UPDATETEMPLATEDOC">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="514" parent="151" name="GETTEMPLATEDOC">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="515" parent="151" name="INSERTTEMPLATEDOC">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="516" parent="151" name="DELETETEMPLATEDOC">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <alias-type id="517" parent="151" name="recordset">
+      <NameScripted>1</NameScripted>
+    </alias-type>
+    <body id="518" parent="152" name="TYPES_PKG">
+      <ObjectId>473102</ObjectId>
+      <SourceTextLength>1493</SourceTextLength>
+      <DependsOnIds>473105,473108,474398,500774</DependsOnIds>
+      <CreatedTimestamp>2020-02-21.10:24:29</CreatedTimestamp>
+      <ModifiedTimestamp>2020-04-15.02:26:20</ModifiedTimestamp>
+    </body>
+    <routine id="519" parent="152" name="GET_TYPEDOCUMENTXIMEI">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="520" parent="152" name="GET_TYPEDOCUMENTXBUREAU">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="521" parent="152" name="GET_TYPEDOCUMENTSXGCONTPROF">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="522" parent="152" name="GET_PARAMETERS">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <alias-type id="523" parent="152" name="cursor_type">
+      <NameScripted>1</NameScripted>
+    </alias-type>
+    <body id="524" parent="153" name="UTILITARIAN_PKG">
+      <ObjectId>465651</ObjectId>
+      <SourceTextLength>13900</SourceTextLength>
+      <DependsOnIds>463900,463903,463904,463906,463907,463908,463914,463915,463916,463976,463980,463983,463991,464000,464011,464014,464020,464040,467864,467865,469381,469398,480099,498896,498917,500253,528632,528636</DependsOnIds>
+      <CreatedTimestamp>2020-02-11.10:34:55</CreatedTimestamp>
+      <ModifiedTimestamp>2020-06-03.09:42:19</ModifiedTimestamp>
+    </body>
+    <routine id="525" parent="153" name="INSERT_ERROR_LOG_SP">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="526" parent="153" name="QUERY_KNOWLEDGE_SP">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="527" parent="153" name="INSERT_TRACEABILITY_LOG_SP">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="528" parent="153" name="INSERT_SYSTEM_DATA_SP">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="529" parent="153" name="INSERT_CUSTOMER_TRANSACTION_SP">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="530" parent="153" name="INSERT_CUSTOMER_SP">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="531" parent="153" name="INSERT_CUSTOMER_DETAIL_SP">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="532" parent="153" name="INSERT_TYPE_ACCOUNT_SP">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="533" parent="153" name="INSERT_TYPE_DOCUMENT_SP">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="534" parent="153" name="INSERT_HISTORY_DATA_SP">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="535" parent="153" name="INSERT_HISTORY_TRANSACTION_SP">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="536" parent="153" name="INSERT_PQR_CASE_SP">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="537" parent="153" name="UPDATE_PQR_CASE_SP">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="538" parent="153" name="DELETE_PQR_CASE_SP">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <argument id="539" parent="492" name="VNAME">
+      <Position>1</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="540" parent="492" name="VDEVICETYPE">
+      <Position>2</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="541" parent="492" name="VMARK">
+      <Position>3</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="542" parent="492" name="VDEVICESTATUS">
+      <Position>4</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="543" parent="492" name="VOBSERVATIONS">
+      <Position>5</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="544" parent="492" name="VIDSTATE">
+      <Position>6</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="545" parent="492" name="PRETORNO">
+      <Position>7</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="546" parent="493" name="VID">
+      <Position>1</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="547" parent="493" name="VNAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="548" parent="493" name="VID_DEVICE_TYPE">
+      <Position>3</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="549" parent="493" name="VID_MARK">
+      <Position>4</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="550" parent="493" name="VID_DEVICE_STATUS">
+      <Position>5</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="551" parent="493" name="VOBSERVATIONS">
+      <Position>6</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="552" parent="493" name="VIDSTATE">
+      <Position>7</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="553" parent="493" name="PRETORNO">
+      <Position>8</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="554" parent="494" name="VID">
+      <Position>1</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="555" parent="494" name="PCURSOR">
+      <Position>2</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>REF CURSOR|0s</DataType>
+    </argument>
+    <argument id="556" parent="494" name="PRETORNO">
+      <Position>3</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="557" parent="495" name="VDEVICE">
+      <Position>1</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="558" parent="495" name="VCHARACTERISTIC">
+      <Position>2</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="559" parent="495" name="VVALUE">
+      <Position>3</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="560" parent="495" name="VIDSTATE">
+      <Position>4</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="561" parent="495" name="PRETORNO">
+      <Position>5</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="562" parent="496" name="VID">
+      <Position>1</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="563" parent="496" name="VDEVICE">
+      <Position>2</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="564" parent="496" name="VCHARACTERISTIC">
+      <Position>3</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="565" parent="496" name="VVALUE">
+      <Position>4</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="566" parent="496" name="VIDSTATE">
+      <Position>5</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="567" parent="496" name="PRETORNO">
+      <Position>6</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="568" parent="497" name="VID">
+      <Position>1</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="569" parent="497" name="PCURSOR">
+      <Position>2</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>REF CURSOR|0s</DataType>
+    </argument>
+    <argument id="570" parent="497" name="PRETORNO">
+      <Position>3</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="571" parent="498" name="VNAME">
+      <Position>1</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="572" parent="498" name="VDESCRIPTION">
+      <Position>2</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="573" parent="498" name="VID_DEVICESOLD">
+      <Position>3</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="574" parent="498" name="VID_DEVICENEW">
+      <Position>4</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="575" parent="498" name="VID_ACTIVITY_STATUS">
+      <Position>5</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="576" parent="498" name="VID_INSURERS">
+      <Position>6</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="577" parent="498" name="VIMEI_OLD">
+      <Position>7</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="578" parent="498" name="VIMEI_NEW">
+      <Position>8</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="579" parent="498" name="VID_CUSTOMER">
+      <Position>9</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="580" parent="498" name="VDATE_BILL">
+      <Position>10</Position>
+      <DataType>DATE|0s</DataType>
+    </argument>
+    <argument id="581" parent="498" name="VDATE_DEVICE">
+      <Position>11</Position>
+      <DataType>DATE|0s</DataType>
+    </argument>
+    <argument id="582" parent="498" name="VIDSTATE">
+      <Position>12</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="583" parent="498" name="PRETORNO">
+      <Position>13</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="584" parent="499" name="VID">
+      <Position>1</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="585" parent="499" name="VNAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="586" parent="499" name="VDESCRIPTION">
+      <Position>3</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="587" parent="499" name="VID_DEVICESOLD">
+      <Position>4</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="588" parent="499" name="VID_DEVICENEW">
+      <Position>5</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="589" parent="499" name="VID_ACTIVITY_STATUS">
+      <Position>6</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="590" parent="499" name="VID_INSURERS">
+      <Position>7</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="591" parent="499" name="VIMEI_OLD">
+      <Position>8</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="592" parent="499" name="VIMEI_NEW">
+      <Position>9</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="593" parent="499" name="VID_CUSTOMER">
+      <Position>10</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="594" parent="499" name="VDATE_BILL">
+      <Position>11</Position>
+      <DataType>DATE|0s</DataType>
+    </argument>
+    <argument id="595" parent="499" name="VDATE_DEVICE">
+      <Position>12</Position>
+      <DataType>DATE|0s</DataType>
+    </argument>
+    <argument id="596" parent="499" name="VIDSTATE">
+      <Position>13</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="597" parent="499" name="PRETORNO">
+      <Position>14</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="598" parent="500" name="VID">
+      <Position>1</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="599" parent="500" name="PCURSOR">
+      <Position>2</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>REF CURSOR|0s</DataType>
+    </argument>
+    <argument id="600" parent="500" name="PRETORNO">
+      <Position>3</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="601" parent="501" name="VCUSTOMER">
+      <Position>1</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="602" parent="501" name="VCUSTDOCUMENT">
+      <Position>2</Position>
+      <DataType>NVARCHAR2|0s</DataType>
+    </argument>
+    <argument id="603" parent="501" name="PCURSOR">
+      <Position>3</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>REF CURSOR|0s</DataType>
+    </argument>
+    <argument id="604" parent="501" name="PRETORNO">
+      <Position>4</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="605" parent="502" name="PCURSOR">
+      <Position>1</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>REF CURSOR|0s</DataType>
+    </argument>
+    <argument id="606" parent="502" name="PRETORNO">
+      <Position>2</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="607" parent="503" name="VID">
+      <Position>1</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="608" parent="503" name="PCURSOR">
+      <Position>2</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>REF CURSOR|0s</DataType>
+    </argument>
+    <argument id="609" parent="503" name="PRETORNO">
+      <Position>3</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="610" parent="504" name="PCURSOR">
+      <Position>1</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>REF CURSOR|0s</DataType>
+    </argument>
+    <argument id="611" parent="504" name="PRETORNO">
+      <Position>2</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="612" parent="505" name="VID">
+      <Position>1</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="613" parent="505" name="PCURSOR">
+      <Position>2</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>REF CURSOR|0s</DataType>
+    </argument>
+    <argument id="614" parent="505" name="PRETORNO">
+      <Position>3</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="615" parent="506" name="PCURSOR">
+      <Position>1</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>REF CURSOR|0s</DataType>
+    </argument>
+    <argument id="616" parent="506" name="PRETORNO">
+      <Position>2</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="617" parent="507" name="VID">
+      <Position>1</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="618" parent="507" name="PCURSOR">
+      <Position>2</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>REF CURSOR|0s</DataType>
+    </argument>
+    <argument id="619" parent="507" name="PRETORNO">
+      <Position>3</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="620" parent="508" name="PCURSOR">
+      <Position>1</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>REF CURSOR|0s</DataType>
+    </argument>
+    <argument id="621" parent="508" name="PRETORNO">
+      <Position>2</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="622" parent="509" name="VID">
+      <Position>1</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="623" parent="509" name="PCURSOR">
+      <Position>2</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>REF CURSOR|0s</DataType>
+    </argument>
+    <argument id="624" parent="509" name="PRETORNO">
+      <Position>3</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="625" parent="510" name="PCURSOR">
+      <Position>1</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>REF CURSOR|0s</DataType>
+    </argument>
+    <argument id="626" parent="510" name="PRETORNO">
+      <Position>2</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="627" parent="511" name="VID">
+      <Position>1</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="628" parent="511" name="PCURSOR">
+      <Position>2</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>REF CURSOR|0s</DataType>
+    </argument>
+    <argument id="629" parent="511" name="PRETORNO">
+      <Position>3</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="630" parent="513" name="VIID_DOCUMENT_TEMPLATE">
+      <Position>1</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="631" parent="513" name="VINAME_DOCUMENT_TEMPLATE">
+      <Position>2</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="632" parent="513" name="VIBODY_DOCUMENT_TEMPLATE">
+      <Position>3</Position>
+      <DataType>CLOB|0s</DataType>
+    </argument>
+    <argument id="633" parent="513" name="VIIACTIVE">
+      <Position>4</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="634" parent="513" name="VORESULT">
+      <Position>5</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="635" parent="514" name="VIID_DOCUMENT_TEMPLATE">
+      <Position>1</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="636" parent="514" name="VORECORDSET">
+      <Position>2</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>REF CURSOR|0s</DataType>
+    </argument>
+    <argument id="637" parent="514" name="VORESULT">
+      <Position>3</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="638" parent="515" name="VINAME_DOCUMENT_TEMPLATE">
+      <Position>1</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="639" parent="515" name="VIBODY_DOCUMENT_TEMPLATE">
+      <Position>2</Position>
+      <DataType>CLOB|0s</DataType>
+    </argument>
+    <argument id="640" parent="515" name="VIIACTIVE">
+      <Position>3</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="641" parent="515" name="VORESULT">
+      <Position>4</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="642" parent="516" name="VIID_DOCUMENT_TEMPLATE">
+      <Position>1</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="643" parent="516" name="VORESULT">
+      <Position>2</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="644" parent="519" name="VICODEFLOW">
+      <Position>1</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="645" parent="519" name="VOCODEIMEI">
+      <Position>2</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="646" parent="519" name="VOSALIDA">
+      <Position>3</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="647" parent="520" name="VICODEFLOW">
+      <Position>1</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="648" parent="520" name="VOCODEBUREAU">
+      <Position>2</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="649" parent="520" name="VOSALIDA">
+      <Position>3</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="650" parent="521" name="VICODEFLOW">
+      <Position>1</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="651" parent="521" name="VOCODEGCONTPROFIELD">
+      <Position>2</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="652" parent="521" name="VOSALIDA">
+      <Position>3</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="653" parent="522" name="VINAMEFLOW">
+      <Position>1</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="654" parent="522" name="VORESULT">
+      <Position>2</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>REF CURSOR|0s</DataType>
+    </argument>
+    <argument id="655" parent="522" name="VOSALIDA">
+      <Position>3</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="656" parent="525" name="V_SERVICE">
+      <Position>1</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="657" parent="525" name="V_METHOD">
+      <Position>2</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="658" parent="525" name="V_DESCRIPTION_ERROR">
+      <Position>3</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="659" parent="525" name="V_SERIALIZED_ERROR">
+      <Position>4</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="660" parent="525" name="P_RETURN">
+      <Position>5</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="661" parent="526" name="V_NAME_F">
+      <Position>1</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="662" parent="526" name="V_NAME_PROCESS">
+      <Position>2</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="663" parent="526" name="V_NAME_KNOW">
+      <Position>3</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="664" parent="526" name="PCURSOR">
+      <Position>4</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>REF CURSOR|0s</DataType>
+    </argument>
+    <argument id="665" parent="526" name="PRETORNO">
+      <Position>5</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="666" parent="527" name="V_SERVICE">
+      <Position>1</Position>
+      <DataType>NVARCHAR2|0s</DataType>
+    </argument>
+    <argument id="667" parent="527" name="V_METHOD">
+      <Position>2</Position>
+      <DataType>NVARCHAR2|0s</DataType>
+    </argument>
+    <argument id="668" parent="527" name="V_IO_DATA">
+      <Position>3</Position>
+      <DataType>CLOB|0s</DataType>
+    </argument>
+    <argument id="669" parent="527" name="V_TRANSACTION_LOG">
+      <Position>4</Position>
+      <DataType>NVARCHAR2|0s</DataType>
+    </argument>
+    <argument id="670" parent="527" name="V_TYPED">
+      <Position>5</Position>
+      <DataType>NVARCHAR2|0s</DataType>
+    </argument>
+    <argument id="671" parent="527" name="P_RETURN">
+      <Position>6</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="672" parent="528" name="V_NAME_DATA">
+      <Position>1</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="673" parent="528" name="V_VALUE_DATA">
+      <Position>2</Position>
+      <DataType>CLOB|0s</DataType>
+    </argument>
+    <argument id="674" parent="528" name="V_PROCESS_FUNCTIONALITY_ID">
+      <Position>3</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="675" parent="528" name="V_CUSTOMER_TRANSACTION_ID">
+      <Position>4</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="676" parent="528" name="P_RETURN">
+      <Position>5</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="677" parent="529" name="V_TRANSACTION">
+      <Position>1</Position>
+      <DataType>NVARCHAR2|0s</DataType>
+    </argument>
+    <argument id="678" parent="529" name="V_CUSTOMER_ID">
+      <Position>2</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="679" parent="529" name="P_RETURN">
+      <Position>3</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="680" parent="530" name="V_ID_CUSTOMER_NUMBER">
+      <Position>1</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="681" parent="530" name="V_TYPE_DOCUMENT_ID">
+      <Position>2</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="682" parent="530" name="P_RETURN">
+      <Position>3</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="683" parent="531" name="V_ACCOUNT_NUMBER">
+      <Position>1</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="684" parent="531" name="V_TYPE_ACCOUNT_ID">
+      <Position>2</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="685" parent="531" name="V_CUSTOMER_ID">
+      <Position>3</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="686" parent="531" name="P_RETURN">
+      <Position>4</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="687" parent="532" name="V_NAME_TYPE_ACCOUNT">
+      <Position>1</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="688" parent="532" name="V_DESCRIPTION_TYPE_ACCOUNT">
+      <Position>2</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="689" parent="532" name="P_RETURN">
+      <Position>3</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="690" parent="533" name="V_TYPE_DOCUMENT">
+      <Position>1</Position>
+      <DataType>NVARCHAR2|0s</DataType>
+    </argument>
+    <argument id="691" parent="533" name="V_DESCRIPTION_TYPE_DOCUMENT">
+      <Position>2</Position>
+      <DataType>NVARCHAR2|0s</DataType>
+    </argument>
+    <argument id="692" parent="533" name="P_RETURN">
+      <Position>3</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="693" parent="534" name="V_CUSTOMER_TRANSACTION_ID">
+      <Position>1</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="694" parent="534" name="V_ID_STATE">
+      <Position>2</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="695" parent="534" name="P_RETURN">
+      <Position>3</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="696" parent="535" name="V_CUSTOMER_TRANSACTION_ID">
+      <Position>1</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="697" parent="535" name="P_RETURN">
+      <Position>2</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="698" parent="536" name="V_REQUEST">
+      <Position>1</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="699" parent="536" name="V_REASON">
+      <Position>2</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="700" parent="536" name="V_PHONE_NUMBER">
+      <Position>3</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="701" parent="536" name="V_ADDRESSED_TO">
+      <Position>4</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="702" parent="536" name="V_APPLICANT_NAME">
+      <Position>5</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="703" parent="536" name="V_APPLICANT_SURNAME">
+      <Position>6</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="704" parent="536" name="V_EMAIL">
+      <Position>7</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="705" parent="536" name="V_CONTACT_NUMBER">
+      <Position>8</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="706" parent="536" name="V_REQUEST_OBJECT">
+      <Position>9</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="707" parent="536" name="V_FACTS_REQUEST">
+      <Position>10</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="708" parent="536" name="V_ACCOUNT_NUMBER">
+      <Position>11</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="709" parent="536" name="V_TRANSACTION">
+      <Position>12</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="710" parent="536" name="V_ID_STATE">
+      <Position>13</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="711" parent="536" name="P_RETURN">
+      <Position>14</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="712" parent="537" name="V_ID">
+      <Position>1</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="713" parent="537" name="V_REQUEST">
+      <Position>2</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="714" parent="537" name="V_REASON">
+      <Position>3</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="715" parent="537" name="V_PHONE_NUMBER">
+      <Position>4</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="716" parent="537" name="V_ADDRESSED_TO">
+      <Position>5</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="717" parent="537" name="V_APPLICANT_NAME">
+      <Position>6</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="718" parent="537" name="V_APPLICANT_SURNAME">
+      <Position>7</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="719" parent="537" name="V_EMAIL">
+      <Position>8</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="720" parent="537" name="V_CONTACT_NUMBER">
+      <Position>9</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="721" parent="537" name="V_REQUEST_OBJECT">
+      <Position>10</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="722" parent="537" name="V_FACTS_REQUEST">
+      <Position>11</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="723" parent="537" name="V_ACCOUNT_NUMBER">
+      <Position>12</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="724" parent="537" name="V_TRANSACTION">
+      <Position>13</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="725" parent="537" name="V_ID_STATE">
+      <Position>14</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="726" parent="537" name="P_RETURN">
+      <Position>15</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="727" parent="538" name="V_ID">
+      <Position>1</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="728" parent="538" name="P_RETURN">
+      <Position>2</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+  </database-model>
+</dataSource>
